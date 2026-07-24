@@ -65,33 +65,54 @@ redirect_from:
 <div class="publication-list">
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/chi26-ai-assistants.png" onerror="this.src='images/pub/placeholder.svg'" alt="AI assistants adoption"></div>
+<div class="pub-body">
+<div class="pub-venue-label">CHI 2026</div>
 <div class="pub-title">Privacy and Trust versus Utility: Adoption of Institutional and Commercial AI Assistants Among University Users</div>
 <div class="pub-authors">Yuting Yang, <strong>Zixin Wang</strong>, Rongjun Ma, Florian Schaub.</div>
-<div class="pub-venue"><em>ACM CHI Conference on Human Factors in Computing Systems</em> (<strong>CHI</strong>), 2026.</div>
+<div class="pub-venue">ACM CHI Conference on Human Factors in Computing Systems (CHI '26).</div>
+</div>
 </div>
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/soups25-chatgpt.png" onerror="this.src='images/pub/placeholder.svg'" alt="ChatGPT privacy perceptions"></div>
+<div class="pub-body">
+<div class="pub-venue-label">SOUPS 2025</div>
 <div class="pub-title">Privacy Perceptions in the Use of ChatGPT Across Different Contexts: A Survey Study of Commercial vs. University-specific Implementations</div>
 <div class="pub-authors">Yuting Yang, <strong>Zixin Wang</strong>, Florian Schaub.</div>
-<div class="pub-venue"><em>Symposium on Usable Privacy and Security</em> (<strong>SOUPS</strong>), 2025.</div>
+<div class="pub-venue">Symposium on Usable Privacy and Security (SOUPS '25).</div>
+</div>
 </div>
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/usec24-voice.png" onerror="this.src='images/pub/placeholder.svg'" alt="Voice interaction privacy notification"></div>
+<div class="pub-body">
+<div class="pub-venue-label">USEC 2024</div>
 <div class="pub-title">Towards Real-time Voice Interaction Data Collection Monitoring and Ambient Light Privacy Notification for Voice-controlled Services</div>
 <div class="pub-authors">Tu Le, <strong>Zixin Wang</strong>, Danny Yuxing Huang, Yaxing Yao, Yuan Tian.</div>
-<div class="pub-venue"><em>Symposium on Usable Security and Privacy</em> (<strong>USEC</strong>), 2024.</div>
+<div class="pub-venue">Symposium on Usable Security and Privacy (USEC '24).</div>
+</div>
 </div>
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/usenix23-airbnb.png" onerror="this.src='images/pub/placeholder.svg'" alt="Airbnb tenant privacy negotiation"></div>
+<div class="pub-body">
+<div class="pub-venue-label">USENIX Security 2023</div>
 <div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">Exploring Tenants' Preferences of Privacy Negotiation in Airbnb</a></div>
 <div class="pub-authors"><strong>Zixin Wang</strong>, Danny Yuxing Huang, Yaxing Yao.</div>
-<div class="pub-venue"><em>32nd USENIX Security Symposium</em> (<strong>USENIX Security</strong>), 2023.</div>
+<div class="pub-venue">32nd USENIX Security Symposium (USENIX Security '23).</div>
+<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">Paper PDF</a></div>
+</div>
 </div>
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/usec23-ar.png" onerror="this.src='images/pub/placeholder.svg'" alt="AR home privacy leaks"></div>
+<div class="pub-body">
+<div class="pub-venue-label">USEC 2023</div>
 <div class="pub-title">Augmented Reality's Potential for Identifying and Mitigating Home Privacy Leaks</div>
 <div class="pub-authors">Stefany Cruz, Logan Danek, Shinan Liu, Christopher Kraemer, <strong>Zixin Wang</strong>, Nick Feamster, Danny Yuxing Huang, Yaxing Yao, Josiah Hester.</div>
-<div class="pub-venue"><em>Workshop on Usable Security and Privacy</em> (<strong>USEC</strong>), 2023.</div>
+<div class="pub-venue">Workshop on Usable Security and Privacy (USEC '23).</div>
+</div>
 </div>
 
 </div>
@@ -101,15 +122,23 @@ redirect_from:
 <div class="publication-list">
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/iconf23-censorship.png" onerror="this.src='images/pub/placeholder.svg'" alt="Chinese social media censorship"></div>
+<div class="pub-body">
+<div class="pub-venue-label">iConference 2023</div>
 <div class="pub-title">How We Express Ourselves Freely: Censorship, Self-censorship, and Anti-censorship on a Chinese Social Media</div>
 <div class="pub-authors">Xiang Chen, Jiamu Xie, <strong>Zixin Wang</strong>, Bohui Shen, Zhixuan Zhou.</div>
-<div class="pub-venue"><em>18th International Conference on Information</em> (<strong>iConference</strong>), 2023.</div>
+<div class="pub-venue">18th International Conference on Information (iConference '23).</div>
+</div>
 </div>
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/hicss23-anonymous.png" onerror="this.src='images/pub/placeholder.svg'" alt="Anonymous expression online community"></div>
+<div class="pub-body">
+<div class="pub-venue-label">HICSS 2023</div>
 <div class="pub-title">Anonymous Expression in an Online Community for Women in China</div>
 <div class="pub-authors">Zhixuan Zhou, <strong>Zixin Wang</strong>, Franziska Zimmer.</div>
-<div class="pub-venue"><em>56th Hawaii International Conference on System Sciences</em> (<strong>HICSS</strong>), 2023.</div>
+<div class="pub-venue">56th Hawaii International Conference on System Sciences (HICSS '23).</div>
+</div>
 </div>
 
 </div>
@@ -119,15 +148,23 @@ redirect_from:
 <div class="publication-list">
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/siggraph25-tuntun.png" onerror="this.src='images/pub/placeholder.svg'" alt="TunTun Diary nightmare relief"></div>
+<div class="pub-body">
+<div class="pub-venue-label">SIGGRAPH Asia 2025 Posters</div>
 <div class="pub-title">TunTun Diary: Exploring AI-Generated Storytelling and Virtual Companionship for Nightmare Relief</div>
 <div class="pub-authors"><strong>Zixin Wang</strong>, Sirui Luo, Shuning Tian, Yidan Cai, Lin Ling, Mengyao Xu, Jingyu Yu, Guanhua Lu, Jiajun Zhu, Lin Luo.</div>
-<div class="pub-venue"><em>SIGGRAPH Asia Posters</em>, 2025.</div>
+<div class="pub-venue">SIGGRAPH Asia Posters, 2025.</div>
+</div>
 </div>
 
 <div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/icdcs23-crypto.png" onerror="this.src='images/pub/placeholder.svg'" alt="Cryptocurrency energy labelling"></div>
+<div class="pub-body">
+<div class="pub-venue-label">ICDCS 2023</div>
 <div class="pub-title">The More You Know: Energy Labelling Enables More Sustainable Cryptocurrency Investments</div>
 <div class="pub-authors">Adriana Elena Drăgnoiu, Moritz Platt, <strong>Zixin Wang</strong>, Zhixuan Zhou.</div>
-<div class="pub-venue"><em>IEEE 43rd International Conference on Distributed Computing Systems</em> (<strong>ICDCS</strong>), 2023.</div>
+<div class="pub-venue">IEEE 43rd International Conference on Distributed Computing Systems (ICDCS '23).</div>
+</div>
 </div>
 
 </div>

@@ -487,33 +487,54 @@
   margin-top: 1em;
 }
 
+/* Two-column publication card: thumbnail left, text right */
 .pub-item {
-  position: relative;
-  padding-left: 1.5em;
-  margin-bottom: 1.5em;
-  
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0.5em;
-    width: 6px;
-    height: 6px;
-    background-color: #2a4365;
-    /* 小方块样式 */
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5em;
+  margin-bottom: 2.2em;
+}
+
+.pub-thumb {
+  flex: 0 0 200px;
+  width: 200px;
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: #f8fafc;
+    display: block;
   }
 }
 
+.pub-body {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.pub-venue-label {
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #00274c;
+  margin-bottom: 0.35em;
+}
+
 .pub-title {
-  font-weight: 600;
-  margin-bottom: 0.25em;
-  
+  font-weight: 700;
+  font-size: 1.12em;
+  line-height: 1.35;
+  margin-bottom: 0.3em;
+
   a {
-    color: #1a73e8;
+    color: #0b60c4;
     text-decoration: none;
-    
+
     &:hover {
-      color: #1557b0;
+      color: #00274c;
       text-decoration: underline;
     }
   }
@@ -521,20 +542,59 @@
 
 .pub-authors {
   color: #4a5568;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.2em;
   font-size: 0.95em;
-  
+
   strong {
-    color: #2a4365;
+    color: #1a202c;
+    font-weight: 700;
   }
 }
 
 .pub-venue {
   color: #718096;
   font-size: 0.9em;
-  
+  margin-bottom: 0.45em;
+
   strong {
-    color: #c53030;
+    color: #4a5568;
+  }
+}
+
+.pub-links {
+  font-size: 0.88em;
+
+  a {
+    display: inline-block;
+    color: #0b60c4;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 1em;
+
+    &:hover {
+      color: #00274c;
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub-award {
+  font-size: 0.9em;
+  color: #b7791f;
+  font-weight: 600;
+  margin-top: 0.3em;
+}
+
+/* Stack thumbnail above text on narrow screens */
+@media (max-width: 600px) {
+  .pub-item {
+    flex-direction: column;
+    gap: 0.8em;
+  }
+  .pub-thumb {
+    flex-basis: auto;
+    width: 100%;
+    max-width: 320px;
   }
 }
 
