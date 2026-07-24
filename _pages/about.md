@@ -16,7 +16,10 @@ redirect_from:
 
 <div id='about-me'>
 
-<p><em>Last updated: 23 July 2026</em></p>
+<div class="hero">
+  <div class="hero-eyebrow">Usable Privacy · Human-Computer Interaction</div>
+  <div class="hero-title">I study privacy and agency for people who are affected by data collection — but not in control of it.</div>
+</div>
 
 <p>I am a Ph.D. student in the <strong><a href="https://www.si.umich.edu/">School of Information</a></strong> at the <strong><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></strong>, in the Security, Privacy, and Usability Lab, where I am fortunate to be advised by Prof. <strong><a href="https://www.florianschaub.com/">Florian Schaub</a></strong> and Prof. <strong><a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a></strong>.</p>
 
@@ -24,13 +27,33 @@ redirect_from:
 
 <p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://english.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (New York University) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (UC San Diego).</p>
 
-<p>My research interests lie in:</p>
+<div class="ro-label">Research Overview</div>
 
-<ul>
-<li>(1) usable privacy and security for populations with limited control over data collection</li>
-<li>(2) accessibility and social interaction for blind and low vision users</li>
-<li>(3) privacy, trust, and self-disclosure in the use of AI assistants and large language models</li>
-</ul>
+<div class="research-overview">
+  <div class="ro-item">
+    <div class="ro-num">01</div>
+    <div class="ro-body">
+      <div class="ro-h">Usable privacy &amp; security</div>
+      <p>Privacy tools and disclosures for populations with limited control over data collection — smart-home tenants, short-term-rental guests, and bystanders around sensing devices.</p>
+    </div>
+  </div>
+  <div class="ro-item">
+    <div class="ro-num">02</div>
+    <div class="ro-body">
+      <div class="ro-h">Accessibility &amp; social interaction</div>
+      <p>Wearable and AI-driven support for blind and low vision people navigating in-person social situations without visual cues.</p>
+    </div>
+  </div>
+  <div class="ro-item">
+    <div class="ro-num">03</div>
+    <div class="ro-body">
+      <div class="ro-h">Privacy &amp; trust in AI assistants</div>
+      <p>How people disclose, trust, and adopt commercial versus institutional AI assistants and large language models.</p>
+    </div>
+  </div>
+</div>
+
+<p class="last-updated"><em>Last updated: 23 July 2026</em></p>
 
 </div>
 
@@ -41,7 +64,6 @@ redirect_from:
 
 # News
 
-{: #news .section-title .section-title-news}
 
 <div class="news-scroll-container">
 <ul class="news-list">
@@ -56,7 +78,6 @@ redirect_from:
 
 # Publications
 
-{: #publications .section-title .section-title-publication}
 
 ## Peer-Reviewed Conference Papers
 
@@ -204,7 +225,6 @@ redirect_from:
 
 # Education
 
-{: #educations .section-title .section-title-education}
 
 <div class="education-item">
   <div class="logo-container">
@@ -244,7 +264,6 @@ redirect_from:
 
 # Research Experience
 
-{: #internships .section-title .section-title-internship}
 
 <div class="internship-item highlight">
   <div class="logo-container">
@@ -270,9 +289,8 @@ redirect_from:
   </div>
 </div>
 
-# Awards & Honors
+# Awards
 
-{: #awards .section-title .section-title-service}
 
 * **2025:** Rackham Graduate Student Research Grant (~\$1,500), University of Michigan
 * **2024:** Excellent Graduate, Zhejiang University
@@ -282,7 +300,6 @@ redirect_from:
 
 # Academic Service
 
-{: #academic-service .section-title .section-title-service}
 
 **Invited Reviewer**
 
@@ -299,13 +316,11 @@ redirect_from:
 
 # Teaching
 
-{: #teaching .section-title .section-title-teaching}
 
 * **[Term, Year]:** Graduate Student Instructor for *[Course Number: Course Title]*, <strong><a href="https://www.si.umich.edu/">University of Michigan School of Information</a></strong>
 
 # More About Me
 
-{: #more-about-me .section-title .section-title-about}
 
 - I came to HCI from psychology, and I still think like a psychologist: I care most about *why* people make the privacy choices they do, not just what they click.
 - Outside of research, [add a hobby or two here].

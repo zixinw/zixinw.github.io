@@ -66,46 +66,36 @@
       font-family: $global-font-family;
     }
   }
+  /* Main section labels (# News, # Publications, ...) — clean uppercase */
   h1 {
-    margin-top: 1.5em;
-    margin-bottom: 0.8em;
-    padding-bottom: 0.6em;
-    border-bottom: 2px solid $border-color;
-    font-weight: 600;
+    margin-top: 2.8em;
+    margin-bottom: 1.2em;
+    padding-bottom: 0.55em;
+    border-bottom: 1px solid #e7eaf0;
+    font-size: 0.92em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #00274c;
     position: relative;
-    
-    &::after {
-      content: '';
-      position: absolute;
-      bottom: -2px;
-      left: 0;
-      width: 60px;
-      height: 2px;
-      background: linear-gradient(to right, $info-color, lighten($info-color, 20%));
-      border-radius: 2px;
-    }
+
+    &::after { content: none; }
   }
-  
+
+  /* Subsection labels (## Peer-Reviewed, ...) — quiet, no border */
   h2:not(.section-title) {
-    margin-top: 2em;
-    margin-bottom: 1em;
-    padding-bottom: 0.5em;
-    font-weight: 600;
-    color: $darker-gray;
+    margin-top: 1.9em;
+    margin-bottom: 0.9em;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 1.02em;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    color: #46515f;
+    border-left: none;
     position: relative;
-    padding-left: 0.75em;
-    border-left: 4px solid $info-color;
-    
-    &::before {
-      content: '';
-      position: absolute;
-      left: -4px;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: linear-gradient(to bottom, $info-color, lighten($info-color, 15%));
-      border-radius: 2px 0 0 2px;
-    }
+
+    &::before { content: none; }
   }
 
   p, li, dl {

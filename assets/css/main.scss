@@ -577,9 +577,94 @@ h1:before, .anchor:before {
     h2.section-title {
         padding-left: 0;
         border-left: none;
-        
+
         &::marker {
             display: none;
         }
+    }
+}
+
+/* ============================================================
+   Hero + Research Overview (clean, modern refresh)
+   ============================================================ */
+.page__content {
+
+    .hero {
+        margin: 0.2em 0 1.6em;
+    }
+
+    .hero-eyebrow {
+        font-size: 0.8em;
+        font-weight: 700;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: #0b60c4;
+        margin-bottom: 0.7em;
+    }
+
+    .hero-title {
+        font-size: 2.05em;
+        line-height: 1.2;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        color: #16202c;
+        margin: 0;
+    }
+
+    .ro-label {
+        font-size: 0.78em;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: #00274c;
+        margin: 2em 0 0.6em;
+    }
+
+    .research-overview {
+        margin: 0 0 0.5em;
+    }
+
+    .ro-item {
+        display: flex;
+        gap: 1.15em;
+        padding: 1em 0;
+        border-top: 1px solid #eef1f5;
+
+        &:last-child {
+            border-bottom: 1px solid #eef1f5;
+        }
+    }
+
+    .ro-num {
+        flex: 0 0 auto;
+        font-size: 0.9em;
+        font-weight: 700;
+        color: #c1cad6;
+        letter-spacing: 0.04em;
+        padding-top: 0.15em;
+        font-variant-numeric: tabular-nums;
+    }
+
+    .ro-h {
+        font-weight: 700;
+        color: #16202c;
+        margin-bottom: 0.2em;
+    }
+
+    .ro-body p {
+        margin: 0;
+        color: #56616e;
+        font-size: 0.95em;
+        line-height: 1.55;
+    }
+
+    .last-updated {
+        font-size: 0.82em;
+        color: #98a2b0;
+        margin-top: 1.8em;
+    }
+
+    @media (max-width: 600px) {
+        .hero-title { font-size: 1.6em; }
     }
 }
