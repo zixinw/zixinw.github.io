@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Zixin Wang</title>
+  <desc id="desc">Monogram avatar with the initials ZW</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00274c"/>
+      <stop offset="1" stop-color="#0b60c4"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="200" fill="url(#background)"/>
+  <circle cx="200" cy="200" r="172" fill="none" stroke="#ffcb05" stroke-width="4" opacity=".9"/>
+  <text x="200" y="236" text-anchor="middle" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="142" font-weight="700" letter-spacing="-12">ZW</text>
+</svg>

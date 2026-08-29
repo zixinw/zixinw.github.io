@@ -57,9 +57,10 @@ redirect_from:
 
 </div>
 
-<div style="margin: 2em 0; padding: 1.5em; background: linear-gradient(135deg, #f5f9ff 0%, #eef4ff 100%); border-left: 4px solid #00274c; border-bottom: 1px solid #00274c; border-radius: 8px; box-shadow: 0 2px 8px rgba(0, 39, 76, 0.1);">
-    <strong style="color: #00274c; font-size: 1.1em; display: block; margin-bottom: 0.5em;">🤝 Open for Collaboration</strong>
-    <p style="margin: 0; color: #1a3a5c; line-height: 1.6;">I am always happy to talk about <span style="background-color: #ffcb05; padding: 2px 6px; border-radius: 4px; font-weight: 700; color: #00274c;">usable privacy</span> and <span style="background-color: #ffcb05; padding: 2px 6px; border-radius: 4px; font-weight: 700; color: #00274c;">accessibility</span> research, and I am open to academic collaborations and research internship opportunities. Please feel free to email me at <a href="mailto:zixinw@umich.edu" style="color: #00274c; font-weight: 600; text-decoration: none; border-bottom: 1px solid #00274c;">zixinw@umich.edu</a>.</p>
+<aside class="collaboration-callout" aria-label="Open for collaboration">
+    <div class="collaboration-callout__title">Open for collaboration</div>
+    <p>I am always happy to talk about <span>usable privacy</span> and <span>accessibility</span> research, and I am open to academic collaborations and research internship opportunities. <a href="mailto:zixinw@umich.edu">Get in touch by email.</a></p>
+</aside>
 </div>
 
 # News
@@ -314,13 +315,7 @@ redirect_from:
 
 * ACM / ACM SIGCHI
 
-# Teaching
-
-
-* **[Term, Year]:** Graduate Student Instructor for *[Course Number: Course Title]*, <strong><a href="https://www.si.umich.edu/">University of Michigan School of Information</a></strong>
-
 # More About Me
 
 
 - I came to HCI from psychology, and I still think like a psychologist: I care most about *why* people make the privacy choices they do, not just what they click.
-- Outside of research, [add a hobby or two here].
