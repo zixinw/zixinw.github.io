@@ -1,0 +1,152 @@
+/* Zixin Wang homepage — warm, relaxed, and research-led. */
+$home-ink: #34433b;
+$home-muted: #68756e;
+$home-paper: #fbfaf6;
+$home-sage: #718c7b;
+$home-sky: #6f91a5;
+$home-coral: #c9826d;
+$home-line: #e7e3da;
+
+html { scroll-behavior: smooth; }
+body { background: $home-paper; color: $home-ink; }
+
+.masthead {
+  border-top: 0;
+  border-bottom: 1px solid rgba($home-ink, .08);
+  background: rgba($home-paper, .91);
+  box-shadow: none;
+
+  &__inner-wrap { max-width: 1240px; padding: .8em 1.5em; }
+}
+
+.masthead__menu-item {
+  a {
+    padding: .45em .72em;
+    border-radius: 999px;
+    color: $home-muted;
+    font-size: .88em;
+    font-weight: 600;
+
+    &:hover { background: #edf2eb; color: #466252; }
+  }
+
+  &--lg {
+    margin-right: auto;
+    padding-right: 1em;
+
+    a {
+      color: $home-ink;
+      font-size: 1.08em;
+      font-weight: 750;
+      letter-spacing: -.025em;
+    }
+  }
+}
+
+@media (min-width: 64em) {
+  #main { max-width: 1240px; margin-top: 3.5em; }
+  .sidebar { width: 225px; }
+  .page { width: calc(100% - 280px); padding-left: 3.4em; }
+}
+
+.profile_box {
+  display: block;
+  padding: 1.25em;
+  border: 0;
+  border-radius: 24px;
+  background: #f1f3ea;
+  box-shadow: none;
+
+  &:hover { box-shadow: none; transform: none; }
+
+  .author__avatar {
+    display: block;
+    width: 88px;
+    height: 88px;
+    min-width: 0;
+    margin: 0 0 1.15em;
+    padding: 0;
+    border: 4px solid rgba(255, 255, 255, .8);
+    border-radius: 50%;
+    box-shadow: 0 7px 22px rgba(65, 79, 69, .1);
+  }
+
+  .author__content { display: block; padding: 0; }
+  .author__role { margin: 0 0 .45em; color: $home-sage; font-size: .68em; font-weight: 750; letter-spacing: .08em; line-height: 1.5; text-transform: uppercase; }
+  .author__name { margin: 0; color: $home-ink; font-size: 1.5em; font-weight: 750; letter-spacing: -.035em; line-height: 1.13; }
+  .author__bio { margin: .75em 0 1.15em; color: $home-muted; font-size: .9em; line-height: 1.55; }
+  .author__meta { display: grid; gap: .5em; margin-bottom: 1.1em; padding-top: 1em; border-top: 1px solid rgba($home-ink, .09); color: $home-muted; font-size: .82em; span, a { display:flex; align-items:center; gap:.25em; } a { color:$home-sky; font-weight:700; } }
+  .author__links { display:flex; flex-wrap:wrap; gap:.4em; a { display:inline-flex; align-items:center; gap:.24em; padding:.34em .56em; border:0; border-radius:999px; background:rgba(255,255,255,.72); color:$home-muted; font-size:.74em; font-weight:700; &:hover { background:#fff; color:$home-sage; } } }
+}
+
+.page__content {
+  #about-me {
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 2.7em 2.8em 2.5em;
+    border: 0;
+    border-radius: 28px;
+    background:
+      radial-gradient(circle at 92% 7%, rgba(239, 190, 164, .32), transparent 24%),
+      radial-gradient(circle at 5% 94%, rgba(174, 207, 194, .28), transparent 28%),
+      #fffefa;
+    box-shadow: 0 14px 42px rgba(70, 78, 70, .07);
+
+    > * { position: relative; z-index: 1; }
+    > p { max-width: 850px; color: #526159; font-size: 1em; line-height: 1.78; }
+  }
+
+  .hero { margin: 0 0 1.8em; }
+  .hero-eyebrow { margin-bottom: .8em; color: $home-coral; font-size: .72em; font-weight: 750; letter-spacing: .1em; }
+  .hero-title { max-width: 850px; color: $home-ink; font-size: clamp(2.15em, 3.1vw, 3em); font-weight: 750; letter-spacing: -.045em; line-height: 1.12; }
+
+  .ro-label, h1 { color: $home-sage; font-size: .75em; font-weight: 750; letter-spacing: .1em; text-transform: uppercase; }
+  .ro-label { margin: 2.4em 0 .85em; }
+  h1 { margin: 4.7em 0 1.5em; padding: 0; border: 0; }
+
+  .research-overview { display: grid; grid-template-columns: repeat(3, 1fr); gap: .8em; }
+  .ro-item { display: block; min-width: 0; padding: 1.25em; border: 0; border-radius: 18px; background: #f3f5ed; &:nth-child(2) { background:#eef4f5; } &:nth-child(3) { background:#faf0eb; } &:last-child { border:0; } }
+  .ro-num { display:inline-block; margin-bottom:.8em; padding:.25em .48em; border-radius:999px; background:rgba(255,255,255,.75); color:$home-sage; font-size:.72em; }
+  .ro-h { color:$home-ink; font-size:.98em; line-height:1.35; }
+  .ro-body p { color:$home-muted; font-size:.84em; line-height:1.58; }
+  .last-updated { color:#9aa39d; }
+
+  .collaboration-callout { border:0; border-radius:18px; background:#eef4f1; box-shadow:none; &__title { color:$home-sage; } p { color:#59675f; } a { color:$home-sky; } span { background:#fff; color:$home-sage; } }
+
+  .publication-list { margin-top:1.2em; }
+  .pub-item { gap:1.25em; margin-bottom:1.1em; padding:1.15em; border:0; border-radius:18px; background:rgba(255,255,255,.65); transition:transform .2s ease, box-shadow .2s ease; &:hover { transform:translateY(-2px); box-shadow:0 10px 28px rgba(67,77,68,.07); } }
+  .pub-thumb { flex-basis:150px; width:150px; img { border:0; border-radius:12px; background:#f1f1ec; } }
+  .pub-venue-label { color:$home-coral; }
+  .pub-title { font-size:1.04em; a { color:#4f7487; } }
+  .pub-links a { color:$home-sky; }
+  .all-publications-link { margin:1.2em 0 0; text-align:right; a { color:$home-sage; font-size:.9em; font-weight:700; border-bottom:1px solid rgba($home-sage,.28); &:hover { color:$home-coral; border-bottom-color:$home-coral; } } }
+}
+
+.education-item, .internship-item {
+  border: 0;
+  border-radius: 16px;
+  background: rgba(255,255,255,.64);
+  box-shadow: none;
+  &:hover { border:0; transform:translateY(-2px); box-shadow:0 9px 24px rgba(67,77,68,.06); }
+}
+.internship-item.highlight { border:0; background:#f3f5ed; box-shadow:none; &:hover { transform:translateY(-2px); box-shadow:0 9px 24px rgba(67,77,68,.06); } }
+
+.institution-mark { &--um {background:#566f62;} &--zju {background:#6f91a5;} &--swu {background:#b77967;} &--jhu {background:#66889c;} }
+
+@media (max-width: 64em) {
+  .profile_box { display:grid; grid-template-columns:72px 1fr; column-gap:1em; align-items:start; margin-bottom:1.5em; padding:1.1em; .author__avatar {width:72px;height:72px;margin:0;} .author__content{grid-column:2;} .author__meta,.author__links{grid-column:1/-1;} .author__meta{margin-top:1em;} }
+}
+
+@media (max-width: 760px) {
+  .page__content {
+    #about-me { padding:1.55em 1.3em; border-radius:20px; }
+    .research-overview { grid-template-columns:1fr; }
+    .pub-item { padding:.9em; }
+  }
+}
+
+@media (max-width: 600px) {
+  .profile_box .author__links span { display:none; }
+  .page__content .hero-title { font-size:1.9em; }
+}
