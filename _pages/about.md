@@ -27,7 +27,7 @@ redirect_from:
 
 <p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://english.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (New York University) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (UC San Diego).</p>
 
-<div class="ro-label">Research Overview</div>
+<div class="ro-label" id="research-overview">Research Overview</div>
 
 <div class="research-overview">
   <div class="ro-item">
@@ -58,31 +58,24 @@ redirect_from:
 </div>
 
 <aside class="collaboration-callout" aria-label="Open for collaboration">
-    <div class="collaboration-callout__title">Open for collaboration</div>
-    <p>I am always happy to talk about <span>usable privacy</span> and <span>accessibility</span> research, and I am open to academic collaborations and research internship opportunities. <a href="mailto:zixinw@umich.edu">Get in touch by email.</a></p>
+  <div class="collaboration-callout__title">Open for collaboration</div>
+  <p>I am always happy to talk about <span>usable privacy</span> and <span>accessibility</span> research, and I am open to academic collaborations and research internship opportunities. <a href="mailto:zixinw@umich.edu">Get in touch by email.</a></p>
 </aside>
-</div>
 
-# News
-
-
-<div class="news-scroll-container">
-<ul class="news-list">
-<li><em>2026.01</em>: 🎉🎉 Our paper on the adoption of institutional vs. commercial AI assistants among university users is accepted to <strong>CHI 2026</strong>.</li>
-<li><em>2025.12</em>: 📄📄 <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, is presented at <strong>SIGGRAPH Asia 2025 Posters</strong>.</li>
-<li><em>2025.08</em>: 🗣️🗣️ Presented our survey study of privacy perceptions in commercial vs. university-specific ChatGPT deployments at <strong>SOUPS 2025</strong> (Poster).</li>
-<li><em>2025.05</em>: ♿️♿️ <strong>Hearing the Smile</strong>, an accessible smart-glasses project for blind and low vision social interaction, is presented at a <strong>CHI 2025 Workshop</strong>.</li>
-<li><em>2025</em>: 🏅🏅 Received the <strong>Rackham Graduate Student Research Grant</strong>, University of Michigan.</li>
-<li><em>2024.08</em>: 🎓🎓 Started my Ph.D. at the University of Michigan School of Information.</li>
-</ul>
-</div>
-
-# Publications
-
-
-## Peer-Reviewed Conference Papers
+# Selected Publications
 
 <div class="publication-list">
+
+<div class="pub-item">
+<div class="pub-thumb"><img src="images/pub/usenix26-airbnb.png" onerror="this.src='images/pub/placeholder.svg'" alt="Privacy negotiation strategies for camera-equipped smart home devices in Airbnb"></div>
+<div class="pub-body">
+<div class="pub-venue-label">USENIX Security 2026</div>
+<div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb</a></div>
+<div class="pub-authors"><strong>Zixin Wang</strong>, Sunyup Park, Haojian Jin, Yaxing Yao.</div>
+<div class="pub-venue">35th USENIX Security Symposium (USENIX Security 2026).</div>
+<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">USENIX</a></div>
+</div>
+</div>
 
 <div class="pub-item">
 <div class="pub-thumb"><img src="images/pub/chi26-ai-assistants.png" onerror="this.src='images/pub/placeholder.svg'" alt="AI assistants adoption"></div>
@@ -107,61 +100,6 @@ redirect_from:
 </div>
 
 <div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/iconf23-censorship.png" onerror="this.src='images/pub/placeholder.svg'" alt="Chinese social media censorship"></div>
-<div class="pub-body">
-<div class="pub-venue-label">iConference 2023</div>
-<div class="pub-title"><a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-28032-0_8">How We Express Ourselves Freely: Censorship, Self-Censorship, and Anti-Censorship on a Chinese Social Media</a></div>
-<div class="pub-authors">Xiang Chen, Jiamu Xie, <strong>Zixin Wang</strong>, Bohui Shen, Zhixuan Zhou.</div>
-<div class="pub-venue">18th iConference, 2023.</div>
-<div class="pub-links"><a href="https://dl.acm.org/doi/abs/10.1007/978-3-031-28032-0_8">Paper</a></div>
-</div>
-</div>
-
-<div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/hicss23-anonymous.png" onerror="this.src='images/pub/placeholder.svg'" alt="Anonymous expression online community"></div>
-<div class="pub-body">
-<div class="pub-venue-label">HICSS 2023</div>
-<div class="pub-title"><a href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/96927829-8fcf-4e4a-92d5-07e56871e0ca/content">Anonymous Expression in an Online Community for Women in China</a></div>
-<div class="pub-authors">Zhixuan Zhou, <strong>Zixin Wang</strong>, Franziska Zimmer.</div>
-<div class="pub-venue">56th Hawaii International Conference on System Sciences (HICSS 2023).</div>
-<div class="pub-links"><a href="https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/96927829-8fcf-4e4a-92d5-07e56871e0ca/content">Paper PDF</a></div>
-</div>
-</div>
-
-</div>
-
-## Journal Articles
-
-<div class="publication-list">
-
-<div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/oxford23-bitcoin.png" onerror="this.src='images/pub/placeholder.svg'" alt="Bitcoin energy demand Nigeria"></div>
-<div class="pub-body">
-<div class="pub-venue-label">Oxford Open Energy 2023</div>
-<div class="pub-title"><a href="https://arxiv.org/ftp/arxiv/papers/2208/2208.00280.pdf">Energy Demand Unawareness and the Popularity of Bitcoin: Evidence from Nigeria</a></div>
-<div class="pub-authors">Moritz Platt, Stephen Ojeka, Andreea-Elena Drăgnoiu, Oserere Ejemen Ibelegbu, Francesco Pierangeli, Johannes Sedlmeir, <strong>Zixin Wang</strong>.</div>
-<div class="pub-venue">Oxford Open Energy, 2023.</div>
-<div class="pub-links"><a href="https://arxiv.org/ftp/arxiv/papers/2208/2208.00280.pdf">Paper PDF</a></div>
-</div>
-</div>
-
-</div>
-
-## Workshop Papers
-
-<div class="publication-list">
-
-<div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/chi25-hearing-smile.png" onerror="this.src='images/pub/placeholder.svg'" alt="Hearing the Smile accessible smart glasses"></div>
-<div class="pub-body">
-<div class="pub-venue-label">CHI 2025 Workshop</div>
-<div class="pub-title">Hearing the Smile: Scoring Spontaneous Social Scenes for the Visually Impaired</div>
-<div class="pub-authors">Shan Luo, <strong>Zixin Wang</strong>, Botao Hu.</div>
-<div class="pub-venue">ACM CHI Conference on Human Factors in Computing Systems Workshop (CHI 2025).</div>
-</div>
-</div>
-
-<div class="pub-item">
 <div class="pub-thumb"><img src="images/pub/usec24-voice.png" onerror="this.src='images/pub/placeholder.svg'" alt="Voice interaction privacy notification"></div>
 <div class="pub-body">
 <div class="pub-venue-label">USEC 2024</div>
@@ -172,65 +110,14 @@ redirect_from:
 </div>
 </div>
 
-<div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/usec23-ar.png" onerror="this.src='images/pub/placeholder.svg'" alt="AR home privacy leaks"></div>
-<div class="pub-body">
-<div class="pub-venue-label">USEC 2023</div>
-<div class="pub-title"><a href="https://www.ndss-symposium.org/wp-content/uploads/2023/02/usec2023-238930-paper.pdf">Augmented Reality's Potential for Identifying and Mitigating Home Privacy Leaks</a></div>
-<div class="pub-authors">Stefany Cruz, Logan Danek, Shinan Liu, Christopher Kraemer, <strong>Zixin Wang</strong>, Nick Feamster, Danny Yuxing Huang, Yaxing Yao, Josiah Hester.</div>
-<div class="pub-venue">Workshop on Usable Security and Privacy (USEC 2023).</div>
-<div class="pub-links"><a href="https://www.ndss-symposium.org/wp-content/uploads/2023/02/usec2023-238930-paper.pdf">Paper PDF</a></div>
-</div>
 </div>
 
-<div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/fidefix23-crypto.png" onerror="this.src='images/pub/placeholder.svg'" alt="Cryptocurrency energy labelling"></div>
-<div class="pub-body">
-<div class="pub-venue-label">FiDeFix @ ICDCS 2023</div>
-<div class="pub-title"><a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/208278701/cex_sustainability_fidefix_2023.pdf">The More You Know: Energy Labelling Enables More Sustainable Cryptocurrency Investment</a></div>
-<div class="pub-authors">Andreea-Elena Drăgnoiu, Moritz Platt, <strong>Zixin Wang</strong>, Zhixuan Zhou.</div>
-<div class="pub-venue">1st Workshop on Fintech and Decentralized Finance (FiDeFix), co-located with ICDCS 2023.</div>
-<div class="pub-links"><a href="https://kclpure.kcl.ac.uk/ws/portalfiles/portal/208278701/cex_sustainability_fidefix_2023.pdf">Paper PDF</a></div>
-</div>
-</div>
-
-</div>
-
-## Posters and Extended Abstracts
-
-<div class="publication-list">
-
-<div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/siggraph25-tuntun.png" onerror="this.src='images/pub/placeholder.svg'" alt="TunTun Diary nightmare relief"></div>
-<div class="pub-body">
-<div class="pub-venue-label">SIGGRAPH Asia 2025 Posters</div>
-<div class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3757374.3771484">TunTun Diary: Exploring AI-Generated Storytelling and Virtual Companionship for Nightmare Relief</a></div>
-<div class="pub-authors"><strong>Zixin Wang</strong>, Shan Luo, Siyu Tian, Yunxi Cai, Long Ling, Muhan Xu, Jiaxing Yu, Guanting Lu, Jiajing Zhu, Liping Luo.</div>
-<div class="pub-venue">SIGGRAPH Asia 2025 Posters.</div>
-<div class="pub-links"><a href="https://dl.acm.org/doi/10.1145/3757374.3771484">ACM DL</a></div>
-</div>
-</div>
-
-<div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/soups25-chatgpt.png" onerror="this.src='images/pub/placeholder.svg'" alt="ChatGPT privacy perceptions"></div>
-<div class="pub-body">
-<div class="pub-venue-label">SOUPS 2025 Poster</div>
-<div class="pub-title"><a href="https://www.usenix.org/system/files/soups2025_poster42_abstract-yang.pdf">Privacy Perceptions in the Use of ChatGPT Across Different Contexts: A Survey Study of Commercial vs. University-Specific Implementations</a></div>
-<div class="pub-authors">Yuting Yang, <strong>Zixin Wang</strong>, Florian Schaub.</div>
-<div class="pub-venue">Symposium on Usable Privacy and Security (SOUPS 2025), Poster.</div>
-<div class="pub-links"><a href="https://www.usenix.org/system/files/soups2025_poster42_abstract-yang.pdf">Abstract PDF</a></div>
-</div>
-</div>
-
-</div>
+<p class="all-publications-link"><a href="{{ site.author.googlescholar }}">View the complete publication list on Google Scholar →</a></p>
 
 # Education
 
-
 <div class="education-item">
-  <div class="logo-container">
-    <img src="images/umich-logo.png" alt="University of Michigan Logo" loading="lazy">
-  </div>
+  <div class="logo-container"><span class="institution-mark institution-mark--um" aria-label="University of Michigan">UM</span></div>
   <div class="content">
     <div class="title">University of Michigan, Ann Arbor</div>
     <div class="subtitle">Ph.D. in Information Science</div>
@@ -240,9 +127,7 @@ redirect_from:
 </div>
 
 <div class="education-item">
-  <div class="logo-container">
-    <img src="images/zju-logo.png" alt="Zhejiang University Logo" loading="lazy">
-  </div>
+  <div class="logo-container"><span class="institution-mark institution-mark--zju" aria-label="Zhejiang University">ZJU</span></div>
   <div class="content">
     <div class="title">Zhejiang University</div>
     <div class="subtitle">M.Sc. in Applied Psychology</div>
@@ -252,9 +137,7 @@ redirect_from:
 </div>
 
 <div class="education-item">
-  <div class="logo-container">
-    <img src="images/swu-logo.png" alt="Southwest University Logo" loading="lazy">
-  </div>
+  <div class="logo-container"><span class="institution-mark institution-mark--swu" aria-label="Southwest University">SWU</span></div>
   <div class="content">
     <div class="title">Southwest University</div>
     <div class="subtitle">B.Sc. in Psychology</div>
@@ -265,11 +148,8 @@ redirect_from:
 
 # Research Experience
 
-
 <div class="internship-item highlight">
-  <div class="logo-container">
-    <img src="images/umich-logo.png" alt="University of Michigan Logo" loading="lazy">
-  </div>
+  <div class="logo-container"><span class="institution-mark institution-mark--um" aria-label="University of Michigan">UM</span></div>
   <div class="content">
     <div class="title">School of Information, University of Michigan</div>
     <div class="subtitle">Graduate Student Researcher</div>
@@ -279,9 +159,7 @@ redirect_from:
 </div>
 
 <div class="internship-item">
-  <div class="logo-container">
-    <img src="images/jhu-logo.png" alt="Johns Hopkins University Logo" loading="lazy">
-  </div>
+  <div class="logo-container"><span class="institution-mark institution-mark--jhu" aria-label="Johns Hopkins University">JHU</span></div>
   <div class="content">
     <div class="title">Johns Hopkins University</div>
     <div class="subtitle">Research Assistant (Remote)</div>
@@ -292,7 +170,6 @@ redirect_from:
 
 # Awards
 
-
 * **2025:** Rackham Graduate Student Research Grant (~\$1,500), University of Michigan
 * **2024:** Excellent Graduate, Zhejiang University
 * **2021:** Excellent Graduate (City-Level), Chongqing
@@ -300,7 +177,6 @@ redirect_from:
 * **2020:** National Scholarship (~\$1,200), Southwest University
 
 # Academic Service
-
 
 **Invited Reviewer**
 
@@ -316,6 +192,5 @@ redirect_from:
 * ACM / ACM SIGCHI
 
 # More About Me
-
 
 - I came to HCI from psychology, and I still think like a psychologist: I care most about *why* people make the privacy choices they do, not just what they click.
