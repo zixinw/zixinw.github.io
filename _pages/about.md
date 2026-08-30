@@ -16,11 +16,6 @@ redirect_from:
 
 <div id='about-me'>
 
-<div class="hero">
-  <div class="hero-eyebrow">Human-Computer Interaction · Privacy · AI</div>
-  <div class="hero-title">I study how people understand, negotiate, and maintain control in data-driven and AI-mediated systems.</div>
-</div>
-
 <p>I am a Ph.D. student in the <strong><a href="https://www.si.umich.edu/">School of Information</a></strong> at the <strong><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></strong>, in the Security, Privacy, and Usability Lab, where I am fortunate to be advised by Prof. <strong><a href="https://www.florianschaub.com/">Florian Schaub</a></strong> and Prof. <strong><a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a></strong>.</p>
 
 <p>My research sits at the intersection of <strong>privacy, human-computer interaction, and AI</strong>. I am especially interested in how people make sense of complex systems, negotiate privacy and control with other stakeholders, and adapt their behavior as AI systems become more autonomous. Methodologically, I use mixed methods including large-scale surveys, vignette experiments, statistical modeling, and qualitative analysis.</p>
