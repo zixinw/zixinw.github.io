@@ -17,13 +17,13 @@ redirect_from:
 <div id='about-me'>
 
 <div class="hero">
-  <div class="hero-eyebrow">Usable Privacy · Human-Computer Interaction</div>
-  <div class="hero-title">I study privacy and agency for people who are affected by data collection — but not in control of it.</div>
+  <div class="hero-eyebrow">Human-Computer Interaction · Privacy · AI</div>
+  <div class="hero-title">I study how people understand, negotiate, and maintain control in data-driven and AI-mediated systems.</div>
 </div>
 
 <p>I am a Ph.D. student in the <strong><a href="https://www.si.umich.edu/">School of Information</a></strong> at the <strong><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></strong>, in the Security, Privacy, and Usability Lab, where I am fortunate to be advised by Prof. <strong><a href="https://www.florianschaub.com/">Florian Schaub</a></strong> and Prof. <strong><a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a></strong>.</p>
 
-<p>My research focuses on <strong>privacy and agency for low-control users</strong> — people who are affected by data collection but are not fully in charge of it. This includes tenants in smart homes, bystanders around sensing devices, and blind or low vision individuals navigating social interaction without visual cues. Using <strong>quantitatively driven mixed methods</strong> (large-scale surveys, vignette experiments, statistical modeling, and thematic analysis), I study how people navigate these situations and design tools that support them: clearer disclosures, safer defaults, and lower-burden interactions.</p>
+<p>My research sits at the intersection of <strong>privacy, human-computer interaction, and AI</strong>. I am especially interested in how people make sense of complex systems, negotiate privacy and control with other stakeholders, and adapt their behavior as AI systems become more autonomous. Methodologically, I use mixed methods including large-scale surveys, vignette experiments, statistical modeling, and qualitative analysis.</p>
 
 <p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://english.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (New York University) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (UC San Diego).</p>
 
@@ -33,34 +33,47 @@ redirect_from:
   <div class="ro-item">
     <div class="ro-num">01</div>
     <div class="ro-body">
-      <div class="ro-h">Usable privacy &amp; security</div>
-      <p>Privacy tools and disclosures for populations with limited control over data collection — smart-home tenants, short-term-rental guests, and bystanders around sensing devices.</p>
+      <div class="ro-h">IoT &amp; privacy negotiation</div>
+      <p>How people negotiate privacy, access, and control around connected devices and sensing systems, especially when multiple stakeholders share the same physical or social space.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">02</div>
     <div class="ro-body">
-      <div class="ro-h">Accessibility &amp; social interaction</div>
-      <p>Wearable and AI-driven support for blind and low vision people navigating in-person social situations without visual cues.</p>
+      <div class="ro-h">Human–AI interaction &amp; LLMs</div>
+      <p>How people understand, trust, disclose to, and make decisions with conversational AI and large language models, with a focus on privacy, mental models, and everyday use.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">03</div>
     <div class="ro-body">
-      <div class="ro-h">Privacy &amp; trust in AI assistants</div>
-      <p>How people disclose, trust, and adopt commercial versus institutional AI assistants and large language models.</p>
+      <div class="ro-h">Human–agentic AI interaction</div>
+      <p>How people maintain awareness, agency, and meaningful control as AI systems move from responding to prompts toward taking actions, coordinating tasks, and acting on users' behalf.</p>
     </div>
   </div>
 </div>
 
-<p class="last-updated"><em>Last updated: 23 July 2026</em></p>
+<p class="last-updated"><em>Last updated: 30 August 2026</em></p>
 
 </div>
 
 <aside class="collaboration-callout" aria-label="Open for collaboration">
   <div class="collaboration-callout__title">Open for collaboration</div>
-  <p>I am always happy to talk about <span>usable privacy</span> and <span>accessibility</span> research, and I am open to academic collaborations and research internship opportunities. <a href="mailto:zixinw@umich.edu">Get in touch by email.</a></p>
+  <p>I am always happy to talk about <span>privacy, human–AI interaction, and agentic AI</span>, and I am open to academic collaborations and research internship opportunities. <a href="mailto:zixinw@umich.edu">Get in touch by email.</a></p>
 </aside>
+
+# News
+
+<div class="news-scroll-container">
+<ul class="news-list">
+<li><em>2026.08</em>: Presented our work on privacy negotiation for camera-equipped smart-home devices at <strong>USENIX Security 2026</strong>.</li>
+<li><em>2026.01</em>: Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong>.</li>
+<li><em>2025.12</em>: <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, was presented at <strong>SIGGRAPH Asia 2025 Posters</strong>.</li>
+<li><em>2025.08</em>: Presented our survey study of privacy perceptions in commercial vs. university-specific ChatGPT deployments at <strong>SOUPS 2025</strong> (Poster).</li>
+<li><em>2025</em>: Received the <strong>Rackham Graduate Student Research Grant</strong>, University of Michigan.</li>
+<li><em>2024.08</em>: Started my Ph.D. at the University of Michigan School of Information.</li>
+</ul>
+</div>
 
 # Selected Publications
 
@@ -154,7 +167,7 @@ redirect_from:
     <div class="title">School of Information, University of Michigan</div>
     <div class="subtitle">Graduate Student Researcher</div>
     <div class="date">2024.08 - Present</div>
-    <div class="description">Security, Privacy, and Usability Lab. Advised by Prof. <a href="https://www.florianschaub.com/">Florian Schaub</a> and Prof. <a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a>. Co-lead <em>Hearing the Smile</em>, an accessible smart-glasses project using wearable sensing, facial-expression recognition, and AI-generated music to support social interaction for blind and low vision people. Design and conduct interviews, surveys, and in-situ studies; analyze survey and behavioral data with statistical modeling in R; study privacy, trust, and utility tradeoffs in the adoption of commercial and institutional AI assistants.</div>
+    <div class="description">Security, Privacy, and Usability Lab. Advised by Prof. <a href="https://www.florianschaub.com/">Florian Schaub</a> and Prof. <a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a>. Conduct research on privacy, human–AI interaction, and agentic AI; design and run surveys, vignette experiments, and mixed-method studies; analyze behavioral and survey data using statistical modeling and qualitative methods.</div>
   </div>
 </div>
 
