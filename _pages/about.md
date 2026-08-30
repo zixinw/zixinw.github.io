@@ -159,27 +159,9 @@ redirect_from:
   </div>
 </div>
 
-# Research Experience
+# Teaching
 
-<div class="internship-item highlight">
-  <div class="logo-container"><span class="institution-mark institution-mark--um" aria-label="University of Michigan">UM</span></div>
-  <div class="content">
-    <div class="title">School of Information, University of Michigan</div>
-    <div class="subtitle">Graduate Student Researcher</div>
-    <div class="date">2024.08 - Present</div>
-    <div class="description">Security, Privacy, and Usability Lab. Advised by Prof. <a href="https://www.florianschaub.com/">Florian Schaub</a> and Prof. <a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a>. Conduct research on privacy, human–AI interaction, and agentic AI; design and run surveys, vignette experiments, and mixed-method studies; analyze behavioral and survey data using statistical modeling and qualitative methods.</div>
-  </div>
-</div>
-
-<div class="internship-item">
-  <div class="logo-container"><span class="institution-mark institution-mark--jhu" aria-label="Johns Hopkins University">JHU</span></div>
-  <div class="content">
-    <div class="title">Johns Hopkins University</div>
-    <div class="subtitle">Research Assistant (Remote)</div>
-    <div class="date">2022.05 - 2024.08</div>
-    <div class="description">Advised by Prof. <a href="https://yaxingyao.github.io/">Yaxing Yao</a>. Designed and administered two vignette-based online studies (N=400 and N=867) examining tenants' privacy-negotiation preferences in smart homes and short-term rentals; managed large-scale recruitment and data collection; conducted quantitative analysis in R and qualitative thematic analysis; developed design implications for privacy-negotiation tools and clearer privacy disclosures.</div>
-  </div>
-</div>
+* **Fall 2026:** Graduate Student Instructor, <strong><a href="https://www.si.umich.edu/">University of Michigan School of Information</a></strong>
 
 # Awards
 
@@ -196,14 +178,7 @@ redirect_from:
 * ACM Conference on Human Factors in Computing Systems (**CHI 2026**)
 * ACM CHI Late-Breaking Work (**2023–2025**)
 * ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW 2024**)
-* ACM Interactive Media Experiences Conference (**IMX 2024**)
-* iConference
-* Hawaii International Conference on System Sciences (**HICSS**)
 
 **Professional Membership**
 
 * ACM / ACM SIGCHI
-
-# More About Me
-
-- I came to HCI from psychology, and I still think like a psychologist: I care most about *why* people make the privacy choices they do, not just what they click.
