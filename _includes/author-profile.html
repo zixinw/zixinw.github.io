@@ -6,18 +6,20 @@
 
 <aside itemscope itemtype="https://schema.org/Person" class="profile_box" aria-label="Author profile">
   <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+
   <div class="author__content">
-    <p class="author__role">Ph.D. Student · University of Michigan</p>
     <h2 class="author__name">{{ author.name }}</h2>
+    <p class="author__role">Ph.D. Student</p>
+    <p class="author__affiliation">University of Michigan</p>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
+
   <div class="author__meta">
-    {% if author.location %}<span><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>{{ author.location }}</span>{% endif %}
-    {% if author.email %}<a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i>Email</a>{% endif %}
-  </div>
-  <div class="author__links" aria-label="Profile links">
-    {% if author.googlescholar %}<a href="{{ author.googlescholar }}" aria-label="Google Scholar"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i><span>Scholar</span></a>{% endif %}
-    {% if author.linkedin %}<a href="{{ author.linkedin }}" aria-label="LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>{% endif %}
-    {% if author.github %}<a href="https://github.com/{{ author.github }}" aria-label="GitHub"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span>GitHub</span></a>{% endif %}
+    {% if author.location %}<span class="author__location">{{ author.location }}</span>{% endif %}
+    <div class="author__contact-links">
+      {% if author.email %}<a href="mailto:{{ author.email }}">Email</a>{% endif %}
+      {% if author.googlescholar %}<a href="{{ author.googlescholar }}">Scholar</a>{% endif %}
+      {% if author.linkedin %}<a href="{{ author.linkedin }}">LinkedIn</a>{% endif %}
+    </div>
   </div>
 </aside>
