@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zixin Wang"
-description              : "Zixin Wang — PhD Student, University of Michigan School of Information. Privacy, HCI, and agency for low-control users."
+description              : "Zixin Wang — PhD Student, University of Michigan School of Information. Privacy, human-AI interaction, and agentic AI."
 repository               : "zixinw/zixinw.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zixin Wang 王梓昕"
   avatar           : "images/profile.svg"
-  bio              : "Privacy and agency for low-control users."
+  bio              : "Privacy, human–AI interaction, and agentic AI."
   location         : "Ann Arbor, MI, USA"
   employer         : "University of Michigan"
   pubmed           :
@@ -77,7 +77,7 @@ exclude:
   - CHANGELOG
   - Capfile
   - Gemfile
-  - Gruntfile.js
+  - Gruntfile
   - LICENSE
   - README
   - Rakefile
