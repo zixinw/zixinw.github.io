@@ -156,7 +156,7 @@ redirect_from:
 
 # Teaching
 
-* **Fall 2026:** Graduate Student Instructor, <strong><a href="https://www.si.umich.edu/">University of Michigan School of Information</a></strong>
+* **Fall 2026:** Graduate Student Instructor for **SI 544: Introduction to Statistics and Data Analysis**, <strong><a href="https://www.si.umich.edu/">University of Michigan School of Information</a></strong>
 
 # Awards
 
@@ -168,11 +168,19 @@ redirect_from:
 
 # Academic Service
 
-**Invited Reviewer**
+**Conference Reviewer**
 
 * ACM Conference on Human Factors in Computing Systems (**CHI 2026**)
 * ACM CHI Late-Breaking Work (**2023–2025**)
 * ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW 2024**)
+
+**Journal Reviewer**
+
+* *Information, Communication & Society* (**ICS**)
+
+**Reviewing Recognition**
+
+* Received **two Special Recognitions for Outstanding Reviews**.
 
 **Professional Membership**
 
