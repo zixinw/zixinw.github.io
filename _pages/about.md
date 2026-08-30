@@ -3,16 +3,10 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <div id='about-me'>
 
@@ -20,7 +14,7 @@ redirect_from:
 
 <p>My research sits at the intersection of <strong>privacy, human-computer interaction, and AI</strong>. I am especially interested in how people make sense of complex systems, negotiate privacy and control with other stakeholders, and adapt their behavior as AI systems become more autonomous. Methodologically, I use mixed methods including large-scale surveys, vignette experiments, statistical modeling, and qualitative analysis.</p>
 
-<p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://english.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (New York University) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (UC San Diego).</p>
+<p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (New York University) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (UC San Diego).</p>
 
 <div class="ro-label" id="research-overview">Research Overview</div>
 
@@ -61,12 +55,12 @@ redirect_from:
 
 <div class="news-scroll-container">
 <ul class="news-list">
-<li><em>2026.08</em>: Presented our work on privacy negotiation for camera-equipped smart-home devices at <strong>USENIX Security 2026</strong>.</li>
-<li><em>2026.01</em>: Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong>.</li>
-<li><em>2025.12</em>: <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, was presented at <strong>SIGGRAPH Asia 2025 Posters</strong>.</li>
-<li><em>2025.08</em>: Presented our survey study of privacy perceptions in commercial vs. university-specific ChatGPT deployments at <strong>SOUPS 2025</strong> (Poster).</li>
-<li><em>2025</em>: Received the <strong>Rackham Graduate Student Research Grant</strong>, University of Michigan.</li>
-<li><em>2024.08</em>: Started my Ph.D. at the University of Michigan School of Information.</li>
+<li><span class="news-date">2026.08</span><span>Presented our work on privacy negotiation for camera-equipped smart-home devices at <strong>USENIX Security 2026</strong>.</span></li>
+<li><span class="news-date">2026.01</span><span>Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong>.</span></li>
+<li><span class="news-date">2025.12</span><span>Presented <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, at <strong>SIGGRAPH Asia 2025 Posters</strong>.</span></li>
+<li><span class="news-date">2025.08</span><span>Presented our survey study of privacy perceptions in commercial vs. university-specific ChatGPT deployments at <strong>SOUPS 2025</strong> (Poster).</span></li>
+<li><span class="news-date">2025</span><span>Received the <strong>Rackham Graduate Student Research Grant</strong> from the University of Michigan.</span></li>
+<li><span class="news-date">2024.08</span><span>Started my Ph.D. at the University of Michigan School of Information.</span></li>
 </ul>
 </div>
 
@@ -125,7 +119,7 @@ redirect_from:
 # Education
 
 <div class="education-item">
-  <div class="logo-container"><span class="institution-mark institution-mark--um" aria-label="University of Michigan">UM</span></div>
+  <div class="logo-container"><img src="images/umich-logo.svg" alt="University of Michigan logo"></div>
   <div class="content">
     <div class="title">University of Michigan, Ann Arbor</div>
     <div class="subtitle">Ph.D. in Information Science</div>
@@ -135,7 +129,7 @@ redirect_from:
 </div>
 
 <div class="education-item">
-  <div class="logo-container"><span class="institution-mark institution-mark--zju" aria-label="Zhejiang University">ZJU</span></div>
+  <div class="logo-container"><img src="images/zju-logo.svg" alt="Zhejiang University logo"></div>
   <div class="content">
     <div class="title">Zhejiang University</div>
     <div class="subtitle">M.Sc. in Applied Psychology</div>
@@ -145,7 +139,7 @@ redirect_from:
 </div>
 
 <div class="education-item">
-  <div class="logo-container"><span class="institution-mark institution-mark--swu" aria-label="Southwest University">SWU</span></div>
+  <div class="logo-container"><img src="images/swu-logo.svg" alt="Southwest University logo"></div>
   <div class="content">
     <div class="title">Southwest University</div>
     <div class="subtitle">B.Sc. in Psychology</div>
@@ -181,7 +175,3 @@ redirect_from:
 **Reviewing Recognition**
 
 * Received **two Special Recognitions for Outstanding Reviews**.
-
-**Professional Membership**
-
-* ACM / ACM SIGCHI
