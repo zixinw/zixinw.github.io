@@ -16,7 +16,7 @@ redirect_from:
 
 <div id='about-me'>
 
-<p>I am a Ph.D. student in the <strong><a href="https://www.si.umich.edu/">School of Information</a></strong> at the <strong><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></strong>, in the Security, Privacy, and Usability Lab, where I am fortunate to be advised by Prof. <strong><a href="https://www.florianschaub.com/">Florian Schaub</a></strong> and Prof. <strong><a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a></strong>.</p>
+<p>I am a Ph.D. student in the <strong><a href="https://www.si.umich.edu/">School of Information</a></strong> at the <strong><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></strong>, where I am fortunate to be advised by Prof. <strong><a href="https://www.si.umich.edu/people/florian-schaub">Florian Schaub</a></strong> and Prof. <strong><a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a></strong>.</p>
 
 <p>My research sits at the intersection of <strong>privacy, human-computer interaction, and AI</strong>. I am especially interested in how people make sense of complex systems, negotiate privacy and control with other stakeholders, and adapt their behavior as AI systems become more autonomous. Methodologically, I use mixed methods including large-scale surveys, vignette experiments, statistical modeling, and qualitative analysis.</p>
 
@@ -130,7 +130,7 @@ redirect_from:
     <div class="title">University of Michigan, Ann Arbor</div>
     <div class="subtitle">Ph.D. in Information Science</div>
     <div class="date">2024.08 - Present</div>
-    <div class="description">Advised by Prof. <a href="https://www.florianschaub.com/">Florian Schaub</a> and Prof. <a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a>, <a href="https://www.si.umich.edu/">School of Information</a></div>
+    <div class="description">Advised by Prof. <a href="https://www.si.umich.edu/people/florian-schaub">Florian Schaub</a> and Prof. <a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a>, <a href="https://www.si.umich.edu/">School of Information</a></div>
   </div>
 </div>
 
