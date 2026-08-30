@@ -1,10 +1,21 @@
 /* Final homepage overrides — intentionally plain, aligned, and academic. */
 
+@media (min-width: 64em) {
+  .sidebar {
+    width: 255px !important;
+  }
+
+  .page {
+    width: calc(100% - 305px) !important;
+    padding-left: 3.1em !important;
+  }
+}
+
 /* Sidebar / author profile */
 .profile_box {
   display: block !important;
   margin: 0 !important;
-  padding: 0 22px 0 0 !important;
+  padding: 0 24px 0 0 !important;
   border: 0 !important;
   border-right: 1px solid #e6e8ea !important;
   border-radius: 0 !important;
@@ -20,10 +31,10 @@
 
 .profile_box .author__avatar {
   display: block !important;
-  width: 92px !important;
-  height: 92px !important;
-  min-width: 92px !important;
-  margin: 0 0 18px 0 !important;
+  width: 104px !important;
+  height: 104px !important;
+  min-width: 104px !important;
+  margin: 0 0 20px 0 !important;
   padding: 0 !important;
   border: 0 !important;
   border-radius: 50% !important;
@@ -36,39 +47,45 @@
   padding: 0 !important;
 }
 
-.profile_box .author__role {
-  margin: 0 0 6px 0 !important;
-  color: #6d7f73 !important;
-  font-size: 11px !important;
-  font-weight: 600 !important;
-  line-height: 1.45 !important;
-  letter-spacing: .055em !important;
-  text-transform: uppercase !important;
-  white-space: normal !important;
+.profile_box .author__name {
+  margin: 0 0 10px 0 !important;
+  color: #20252b !important;
+  font-size: 23px !important;
+  font-weight: 650 !important;
+  line-height: 1.18 !important;
+  letter-spacing: -.02em !important;
+  white-space: nowrap !important;
 }
 
-.profile_box .author__name {
+.profile_box .author__role {
+  margin: 0 0 2px 0 !important;
+  color: #4f5962 !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  letter-spacing: 0 !important;
+  text-transform: none !important;
+}
+
+.profile_box .author__affiliation {
   margin: 0 !important;
-  color: #20252b !important;
-  font-size: 25px !important;
-  font-weight: 650 !important;
-  line-height: 1.15 !important;
-  letter-spacing: -.02em !important;
+  color: #6f7880 !important;
+  font-size: 13px !important;
+  font-weight: 400 !important;
+  line-height: 1.45 !important;
 }
 
 .profile_box .author__bio {
-  max-width: 185px !important;
-  margin: 10px 0 18px 0 !important;
+  max-width: 205px !important;
+  margin: 15px 0 18px 0 !important;
   color: #68717a !important;
-  font-size: 14px !important;
+  font-size: 13.5px !important;
   line-height: 1.55 !important;
 }
 
 .profile_box .author__meta {
-  display: grid !important;
-  grid-template-columns: 1fr !important;
-  gap: 8px !important;
-  margin: 0 0 14px 0 !important;
+  display: block !important;
+  margin: 0 !important;
   padding: 15px 0 0 0 !important;
   border: 0 !important;
   border-top: 1px solid #e6e8ea !important;
@@ -76,68 +93,53 @@
   font-size: 13px !important;
 }
 
-.profile_box .author__meta span,
-.profile_box .author__meta a {
+.profile_box .author__location {
+  display: block !important;
+  margin: 0 0 9px 0 !important;
+  color: #7a838b !important;
+  font-size: 12.5px !important;
+  line-height: 1.4 !important;
+}
+
+.profile_box .author__contact-links {
   display: flex !important;
+  flex-wrap: wrap !important;
   align-items: center !important;
-  gap: 6px !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  color: #68717a !important;
-  font-weight: 400 !important;
-  text-decoration: none !important;
+  gap: 0 !important;
 }
 
-.profile_box .author__meta a:hover {
-  color: #315f86 !important;
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
-}
-
-.profile_box .author__links {
-  display: grid !important;
-  grid-template-columns: 1fr !important;
-  gap: 7px !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-.profile_box .author__links a {
-  display: inline-flex !important;
-  align-items: center !important;
-  gap: 6px !important;
-  width: fit-content !important;
+.profile_box .author__contact-links a {
+  display: inline !important;
   margin: 0 !important;
   padding: 0 !important;
   border: 0 !important;
   border-radius: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
-  color: #59636d !important;
-  font-size: 13px !important;
+  color: #315f86 !important;
+  font-size: 12.5px !important;
   font-weight: 500 !important;
   line-height: 1.45 !important;
   text-decoration: none !important;
 }
 
-.profile_box .author__links a:hover {
-  background: transparent !important;
-  color: #315f86 !important;
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
+.profile_box .author__contact-links a + a::before {
+  content: "·";
+  margin: 0 7px;
+  color: #a1a8ae;
+  font-weight: 400;
 }
 
-.profile_box .author__links i,
-.profile_box .author__meta i {
-  width: 15px !important;
-  text-align: center !important;
-  color: #8a939b !important;
+.profile_box .author__contact-links a:hover {
+  color: #20252b !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
 }
 
 @media (max-width: 64em) {
   .profile_box {
     display: grid !important;
-    grid-template-columns: 72px 1fr !important;
+    grid-template-columns: 84px 1fr !important;
     column-gap: 16px !important;
     padding: 0 0 20px 0 !important;
     border-right: 0 !important;
@@ -145,9 +147,9 @@
   }
 
   .profile_box .author__avatar {
-    width: 72px !important;
-    height: 72px !important;
-    min-width: 72px !important;
+    width: 84px !important;
+    height: 84px !important;
+    min-width: 84px !important;
     margin: 0 !important;
   }
 
@@ -155,12 +157,12 @@
     grid-column: 2 !important;
   }
 
-  .profile_box .author__meta,
-  .profile_box .author__links {
+  .profile_box .author__meta {
     grid-column: 1 / -1 !important;
+    margin-top: 14px !important;
   }
 
-  .profile_box .author__meta {
-    margin-top: 14px !important;
+  .profile_box .author__name {
+    white-space: normal !important;
   }
 }
