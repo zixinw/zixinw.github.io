@@ -53,20 +53,38 @@
 .profile_box .author__bio { max-width: 205px !important; margin: 15px 0 18px 0 !important; color: #68717a !important; font-size: 13.5px !important; line-height: 1.55 !important; }
 .profile_box .author__meta { display: block !important; margin: 0 !important; padding: 15px 0 0 0 !important; border: 0 !important; border-top: 1px solid #e6e8ea !important; color: #68717a !important; font-size: 13px !important; }
 .profile_box .author__location { display: block !important; margin: 0 0 9px 0 !important; color: #7a838b !important; font-size: 12.5px !important; line-height: 1.4 !important; }
-.profile_box .author__contact-links { display: flex !important; flex-wrap: wrap !important; align-items: center !important; gap: 0 !important; }
-.profile_box .author__contact-links a { display: inline !important; margin: 0 !important; padding: 0 !important; border: 0 !important; border-radius: 0 !important; background: transparent !important; box-shadow: none !important; color: #315f86 !important; font-size: 12.5px !important; font-weight: 500 !important; line-height: 1.45 !important; text-decoration: none !important; }
-.profile_box .author__contact-links a + a::before { content: "·"; margin: 0 7px; color: #a1a8ae; font-weight: 400; }
-.profile_box .author__contact-links a:hover { color: #20252b !important; text-decoration: underline !important; text-underline-offset: 2px !important; }
+/* Contact links: small round icon buttons (email, Scholar, LinkedIn, GitHub). */
+.profile_box .author__contact-links { display: flex !important; flex-wrap: wrap !important; align-items: center !important; gap: 8px !important; }
+.profile_box .author__contact-links a {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 32px !important;
+  height: 32px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 1px solid #dfe3e6 !important;
+  border-radius: 50% !important;
+  background: #fff !important;
+  box-shadow: none !important;
+  color: #4f5962 !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+  transition: color .15s ease, border-color .15s ease, background-color .15s ease;
+}
+.profile_box .author__contact-links a i { display: block !important; width: auto !important; height: auto !important; margin: 0 !important; color: inherit !important; font-size: inherit !important; line-height: 1 !important; }
+.profile_box .author__contact-links a:hover,
+.profile_box .author__contact-links a:focus-visible { color: #315f86 !important; border-color: #315f86 !important; background: #f4f7fa !important; text-decoration: none !important; }
 
-/* Research overview: no stray divider on individual cards. */
+/* Research overview: stacked rows separated by hairlines. */
 .page__content .research-overview { border-top: 1px solid #e6e8ea !important; }
-.page__content .research-overview .ro-item,
-.page__content .research-overview .ro-item:last-child {
+.page__content .research-overview .ro-item {
   border: 0 !important;
-  border-top: 0 !important;
-  border-bottom: 0 !important;
+  border-bottom: 1px solid #e6e8ea !important;
   box-shadow: none !important;
 }
+.page__content .research-overview .ro-item:last-child { border-bottom: 0 !important; }
 
 /* News: aligned date column and consistent sentence styling. */
 .page__content .news-scroll-container {
