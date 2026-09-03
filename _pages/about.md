@@ -16,7 +16,7 @@ redirect_from:
 
 <p>My research sits at the intersection of <strong>human-centered security, human-AI interaction, and usable privacy and security</strong>. I am especially interested in how people make sense of complex systems, negotiate privacy and control with other stakeholders, and adapt their behavior as AI systems become more autonomous. Methodologically, I use mixed methods including large-scale surveys, vignette experiments, statistical modeling, and qualitative analysis.</p>
 
-<p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://admissions.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (New York University) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (UC San Diego).</p>
+<p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://admissions.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (<a href="https://www.nyu.edu/">New York University</a>) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (<a href="https://ucsd.edu/">UC San Diego</a>).</p>
 
 <div class="ro-label" id="research-overview">Research Overview</div>
 
@@ -55,10 +55,10 @@ redirect_from:
 
 <div class="news-scroll-container">
 <ul class="news-list">
-<li><span class="news-date">2026.08</span><span>Presented our work on privacy negotiation for camera-equipped smart-home devices at <strong>USENIX Security 2026</strong>. <span class="news-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Baltimore, MD, USA</span></span></li>
-<li><span class="news-date">2026.01</span><span>Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong>. <span class="news-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Barcelona, Spain</span></span></li>
-<li><span class="news-date">2025.12</span><span>Presented <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, at <strong>SIGGRAPH Asia 2025 Posters</strong>. <span class="news-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Hong Kong</span></span></li>
-<li><span class="news-date">2025.08</span><span>Presented our survey study of privacy perceptions in commercial vs. university-specific ChatGPT deployments at <strong>SOUPS 2025</strong> (Poster). <span class="news-location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i>Seattle, WA, USA</span></span></li>
+<li><span class="news-date">2026.08</span><span>Presented our paper on privacy negotiation for camera-equipped smart-home devices at <strong>USENIX Security 2026</strong> in Baltimore, MD, USA.</span></li>
+<li><span class="news-date">2026.01</span><span>Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong> (Barcelona, Spain).</span></li>
+<li><span class="news-date">2025.12</span><span>Presented <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, at <strong>SIGGRAPH Asia 2025 Posters</strong> in Hong Kong.</span></li>
+<li><span class="news-date">2025.08</span><span>Our poster on privacy perceptions in commercial vs. university-specific ChatGPT deployments was accepted to <strong>SOUPS 2025</strong> (Seattle, WA, USA).</span></li>
 <li><span class="news-date">2025</span><span>Received the <strong>Rackham Graduate Student Research Grant</strong> from the University of Michigan.</span></li>
 <li><span class="news-date">2024.08</span><span>Started my Ph.D. at the University of Michigan School of Information.</span></li>
 </ul>
@@ -69,13 +69,13 @@ redirect_from:
 <div class="publication-list">
 
 <div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/usenix26-airbnb.png" onerror="this.src='images/pub/placeholder.svg'" alt="Eight privacy negotiation routes for camera-equipped smart home devices in Airbnb"></div>
+<div class="pub-thumb"><img src="images/pub/usenix26-routes.png" onerror="this.src='images/pub/placeholder.svg'" alt="Privacy negotiation routes for camera-equipped smart home devices in Airbnb"></div>
 <div class="pub-body">
 <div class="pub-venue-label">USENIX Security 2026</div>
 <div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb</a></div>
 <div class="pub-authors"><strong>Zixin Wang</strong>, Sunyup Park, Haojian Jin, Yaxing Yao.</div>
 <div class="pub-venue">35th USENIX Security Symposium (USENIX Security 2026).</div>
-<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">USENIX</a></div>
+<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity26-wang-zixin.pdf">PDF</a> <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Video</a></div>
 </div>
 </div>
 
@@ -91,24 +91,24 @@ redirect_from:
 </div>
 
 <div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/usenix23-airbnb.png" onerror="this.src='images/pub/placeholder.svg'" alt="Heatmap of participants' comfort levels across devices, locations, and durations"></div>
+<div class="pub-thumb"><img src="images/pub/usenix23-heatmap.png" onerror="this.src='images/pub/placeholder.svg'" alt="Heatmap of participants' comfort levels across smart home devices"></div>
 <div class="pub-body">
 <div class="pub-venue-label">USENIX Security 2023</div>
-<div class="pub-title"><a href="https://www.usenix.org/system/files/usenixsecurity23-wang-zixin.pdf">Exploring Tenants' Preferences of Privacy Negotiation in Airbnb</a></div>
+<div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">Exploring Tenants' Preferences of Privacy Negotiation in Airbnb</a></div>
 <div class="pub-authors"><strong>Zixin Wang</strong>, Danny Yuxing Huang, Yaxing Yao.</div>
 <div class="pub-venue">32nd USENIX Security Symposium (USENIX Security 2023), pp. 535–551.</div>
-<div class="pub-links"><a href="https://www.usenix.org/system/files/usenixsecurity23-wang-zixin.pdf">Paper PDF</a></div>
+<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity23-wang-zixin.pdf">PDF</a> <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">Video</a></div>
 </div>
 </div>
 
 <div class="pub-item">
-<div class="pub-thumb"><img src="images/pub/usec24-voice.png" onerror="this.src='images/pub/placeholder.svg'" alt="VPAWatcher browser extension interface in idle and monitoring states"></div>
+<div class="pub-thumb"><img src="images/pub/usec24-vpawatcher.png" onerror="this.src='images/pub/placeholder.svg'" alt="VPAWatcher browser extension interface in idle and monitoring states"></div>
 <div class="pub-body">
 <div class="pub-venue-label">USEC 2024</div>
 <div class="pub-title"><a href="https://www.ndss-symposium.org/wp-content/uploads/usec2024-39-paper.pdf">Towards Real-Time Voice Interaction Data Collection Monitoring and Ambient Light Privacy Notification for Voice-Controlled Services</a></div>
 <div class="pub-authors">Tu Le, <strong>Zixin Wang</strong>, Danny Yuxing Huang, Yaxing Yao, Yuan Tian.</div>
 <div class="pub-venue">Symposium on Usable Security and Privacy (USEC 2024).</div>
-<div class="pub-links"><a href="https://www.ndss-symposium.org/wp-content/uploads/usec2024-39-paper.pdf">Paper PDF</a></div>
+<div class="pub-links"><a href="https://www.ndss-symposium.org/wp-content/uploads/usec2024-39-paper.pdf">PDF</a></div>
 </div>
 </div>
 
@@ -119,7 +119,7 @@ redirect_from:
 # Education
 
 <div class="education-item">
-  <div class="logo-container"><img src="images/umich-logo.svg" alt="University of Michigan seal"></div>
+  <div class="logo-container"><img src="images/logos/umich-seal.svg" alt="University of Michigan seal"></div>
   <div class="content">
     <div class="title">University of Michigan, Ann Arbor</div>
     <div class="subtitle">Ph.D. in Information Science</div>
@@ -129,7 +129,7 @@ redirect_from:
 </div>
 
 <div class="education-item">
-  <div class="logo-container"><img src="images/zju-logo.svg" alt="Zhejiang University emblem"></div>
+  <div class="logo-container"><img src="images/logos/zju-emblem.svg" alt="Zhejiang University emblem"></div>
   <div class="content">
     <div class="title">Zhejiang University</div>
     <div class="subtitle">M.Sc. in Applied Psychology</div>
@@ -139,7 +139,7 @@ redirect_from:
 </div>
 
 <div class="education-item">
-  <div class="logo-container"><img src="images/swu-logo.svg" alt="Southwest University emblem"></div>
+  <div class="logo-container"><img src="images/logos/swu-emblem.svg" alt="Southwest University emblem"></div>
   <div class="content">
     <div class="title">Southwest University</div>
     <div class="subtitle">B.Sc. in Psychology</div>
@@ -162,18 +162,8 @@ redirect_from:
 
 # Academic Service
 
-**Conference Reviewer**
-
-* ACM Conference on Human Factors in Computing Systems (**CHI 2026**)
-* ACM CHI Late-Breaking Work (**2023–2025**)
-* ACM Conference on Computer-Supported Cooperative Work and Social Computing (**CSCW 2024**)
-
-**Journal Reviewer**
-
-* *Information, Communication & Society* (**ICS**)
-
-**Reviewing Recognition**
-
-* Received **two Special Recognitions for Outstanding Reviews**.
+* **Conference reviewer:** CHI 2026, CHI LBW 2023–2025, CSCW 2024
+* **Journal reviewer:** *Information, Communication & Society*
+* **Recognition:** Two Special Recognitions for Outstanding Reviews
 
 <p class="last-updated">Last updated: 30 August 2026</p>

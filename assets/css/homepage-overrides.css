@@ -15,7 +15,7 @@
   background: transparent !important;
   box-shadow: none !important;
   transform: none !important;
-  text-align: left !important;
+  text-align: center !important;
 }
 .profile_box:hover { box-shadow: none !important; transform: none !important; }
 .profile_box .author__avatar {
@@ -50,11 +50,11 @@
   text-transform: none !important;
 }
 .profile_box .author__affiliation { margin: 0 !important; color: #6f7880 !important; font-size: 13px !important; font-weight: 400 !important; line-height: 1.45 !important; }
-.profile_box .author__bio { max-width: 205px !important; margin: 15px 0 18px 0 !important; color: #68717a !important; font-size: 13.5px !important; line-height: 1.55 !important; }
+.profile_box .author__bio { max-width: 205px !important; margin: 15px auto 18px auto !important; color: #68717a !important; font-size: 13.5px !important; line-height: 1.55 !important; }
 .profile_box .author__meta { display: block !important; margin: 0 !important; padding: 15px 0 0 0 !important; border: 0 !important; border-top: 1px solid #e6e8ea !important; color: #68717a !important; font-size: 13px !important; }
 .profile_box .author__location { display: block !important; margin: 0 0 9px 0 !important; color: #7a838b !important; font-size: 12.5px !important; line-height: 1.4 !important; }
 /* Contact links: small round icon buttons (email, Scholar, LinkedIn, GitHub). */
-.profile_box .author__contact-links { display: flex !important; flex-wrap: wrap !important; align-items: center !important; gap: 8px !important; }
+.profile_box .author__contact-links { display: flex !important; flex-wrap: wrap !important; align-items: center !important; justify-content: center !important; gap: 8px !important; }
 .profile_box .author__contact-links a {
   display: inline-flex !important;
   align-items: center !important;
@@ -140,7 +140,10 @@
     padding: 0 0 20px 0 !important;
     border-right: 0 !important;
     border-bottom: 1px solid #e6e8ea !important;
+    text-align: left !important;
   }
+  .profile_box .author__bio { margin-left: 0 !important; margin-right: 0 !important; }
+  .profile_box .author__contact-links { justify-content: flex-start !important; }
   .profile_box .author__avatar { width: 84px !important; height: 84px !important; min-width: 84px !important; margin: 0 !important; }
   .profile_box .author__content { grid-column: 2 !important; }
   .profile_box .author__meta { grid-column: 1 / -1 !important; margin-top: 14px !important; }
