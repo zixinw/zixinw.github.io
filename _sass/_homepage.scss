@@ -377,12 +377,15 @@ body { background: $paper; color: $ink; }
     color: $muted;
   }
 
-  /* Links render as [ACM DL] [PDF] [Video] */
+  /* Links render as [ACM DL] [Paper PDF] [Video]. Only the page's own
+     links get brackets, so icons injected by browser extensions stay bare. */
   .pub-links a {
     margin-right: .7em;
     color: $link;
     font-weight: 500;
+  }
 
+  .pub-links a.pub-link {
     &::before { content: "["; }
     &::after { content: "]"; }
   }
