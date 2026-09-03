@@ -12,11 +12,11 @@ redirect_from:
 
 <div id='about-me'>
 
-<p>I am a Ph.D. student in the <strong><a href="https://www.si.umich.edu/">School of Information</a></strong> at the <strong><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></strong>, where I am fortunate to be advised by Prof. <strong><a href="https://www.si.umich.edu/people/florian-schaub">Florian Schaub</a></strong> and Prof. <strong><a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a></strong>.</p>
+<p>I am a third-year Ph.D. student in the <strong><a href="https://www.si.umich.edu/">School of Information</a></strong> at the <strong><a href="https://umich.edu/">University of Michigan, Ann Arbor</a></strong>, where I am fortunate to be advised by Prof. <strong><a href="https://www.si.umich.edu/people/florian-schaub">Florian Schaub</a></strong> and Prof. <strong><a href="https://www.si.umich.edu/people/christopher-brooks">Christopher Brooks</a></strong>.</p>
 
 <p>My research sits at the intersection of <strong>human-centered security, human-AI interaction, and usable privacy and security</strong>. I am especially interested in how people make sense of complex systems, negotiate privacy and control with other stakeholders, and adapt their behavior as AI systems become more autonomous. Methodologically, I use mixed methods including large-scale surveys, vignette experiments, statistical modeling, and qualitative analysis.</p>
 
-<p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://admissions.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> (<a href="https://www.nyu.edu/">New York University</a>) and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> (<a href="https://ucsd.edu/">UC San Diego</a>).</p>
+<p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://admissions.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> at <strong><a href="https://www.nyu.edu/">New York University</a></strong> and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> at <strong><a href="https://ucsd.edu/">UC San Diego</a></strong>.</p>
 
 <div class="ro-label" id="research-overview">Research Overview</div>
 
@@ -56,9 +56,9 @@ redirect_from:
 <div class="news-scroll-container">
 <ul class="news-list">
 <li><span class="news-date">2026.08</span><span>Presented our paper on privacy negotiation for camera-equipped smart-home devices at <strong>USENIX Security 2026</strong> in Baltimore, MD, USA.</span></li>
-<li><span class="news-date">2026.01</span><span>Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong> (Barcelona, Spain).</span></li>
+<li><span class="news-date">2026.01</span><span>Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong> in Barcelona, Spain.</span></li>
 <li><span class="news-date">2025.12</span><span>Presented <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, at <strong>SIGGRAPH Asia 2025 Posters</strong> in Hong Kong.</span></li>
-<li><span class="news-date">2025.08</span><span>Our poster on privacy perceptions in commercial vs. university-specific ChatGPT deployments was accepted to <strong>SOUPS 2025</strong> (Seattle, WA, USA).</span></li>
+<li><span class="news-date">2025.08</span><span>Our poster on privacy perceptions in commercial vs. university-specific ChatGPT deployments was accepted to <strong>SOUPS 2025</strong> in Seattle, WA, USA.</span></li>
 <li><span class="news-date">2025</span><span>Received the <strong>Rackham Graduate Student Research Grant</strong> from the University of Michigan.</span></li>
 <li><span class="news-date">2024.08</span><span>Started my Ph.D. at the University of Michigan School of Information.</span></li>
 </ul>
@@ -119,7 +119,7 @@ redirect_from:
 # Education
 
 <div class="education-item">
-  <div class="logo-container"><img src="images/logos/umich-seal.svg" alt="University of Michigan seal"></div>
+  <div class="logo-container"><img src="images/logos/umich-blockm.svg" alt="University of Michigan Block M"></div>
   <div class="content">
     <div class="title">University of Michigan, Ann Arbor</div>
     <div class="subtitle">Ph.D. in Information Science</div>
@@ -154,6 +154,8 @@ redirect_from:
 
 # Awards
 
+* **2026:** GREPSEC Student Grant
+* **2026:** USENIX Security Student Grant, USENIX Association
 * **2025:** Rackham Graduate Student Research Grant (~\$1,500), University of Michigan
 * **2024:** Excellent Graduate, Zhejiang University
 * **2021:** Excellent Graduate (City-Level), Chongqing
@@ -164,6 +166,5 @@ redirect_from:
 
 * **Conference reviewer:** CHI 2026, CHI LBW 2023–2025, CSCW 2024
 * **Journal reviewer:** *Information, Communication & Society*
-* **Recognition:** Two Special Recognitions for Outstanding Reviews
 
 <p class="last-updated">Last updated: 30 August 2026</p>

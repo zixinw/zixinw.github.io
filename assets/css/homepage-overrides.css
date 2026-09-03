@@ -86,23 +86,31 @@
 }
 .page__content .research-overview .ro-item:last-child { border-bottom: 0 !important; }
 
-/* News: aligned date column and consistent sentence styling. */
+/* News: a compact scrollable window with an aligned date column and no dividers. */
 .page__content .news-scroll-container {
-  max-height: none !important;
-  overflow: visible !important;
+  max-height: 230px !important;
+  overflow-y: auto !important;
+  margin: .6em 0 0 !important;
+  padding: .35em 14px .35em 0 !important;
+  border: 1px solid #e6e8ea !important;
+  border-radius: 4px !important;
+  background: #fff !important;
+  scrollbar-width: thin;
+  scrollbar-color: #c9ced3 transparent;
 }
+.page__content .news-scroll-container::-webkit-scrollbar { width: 6px; }
+.page__content .news-scroll-container::-webkit-scrollbar-thumb { background: #c9ced3; border-radius: 3px; }
 .page__content .news-list { margin: 0 !important; padding: 0 !important; list-style: none !important; }
 .page__content .news-list li {
   display: grid !important;
   grid-template-columns: 78px minmax(0, 1fr) !important;
-  gap: 18px !important;
+  gap: 14px !important;
   align-items: start !important;
   margin: 0 !important;
-  padding: .72em 0 !important;
-  border-bottom: 1px solid #edf0f2 !important;
+  padding: .5em 0 .5em 14px !important;
+  border: 0 !important;
 }
 .page__content .news-list li::before { display: none !important; content: none !important; }
-.page__content .news-list li:last-child { border-bottom: 0 !important; }
 .page__content .news-date {
   color: #75808a !important;
   font-size: .9em !important;
