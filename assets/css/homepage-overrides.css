@@ -77,14 +77,13 @@
 .profile_box .author__contact-links a:hover,
 .profile_box .author__contact-links a:focus-visible { color: #315f86 !important; border-color: #315f86 !important; background: #f4f7fa !important; text-decoration: none !important; }
 
-/* Research overview: stacked rows separated by hairlines. */
+/* Research overview: three columns under one hairline, no per-card dividers on desktop. */
 .page__content .research-overview { border-top: 1px solid #e6e8ea !important; }
-.page__content .research-overview .ro-item {
-  border: 0 !important;
-  border-bottom: 1px solid #e6e8ea !important;
-  box-shadow: none !important;
+.page__content .research-overview .ro-item { border: 0 !important; box-shadow: none !important; }
+@media (max-width: 760px) {
+  .page__content .research-overview .ro-item { border-bottom: 1px solid #e6e8ea !important; }
+  .page__content .research-overview .ro-item:last-child { border-bottom: 0 !important; }
 }
-.page__content .research-overview .ro-item:last-child { border-bottom: 0 !important; }
 
 /* News: a compact scrollable window with an aligned date column and no dividers. */
 .page__content .news-scroll-container {

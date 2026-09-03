@@ -232,29 +232,26 @@ body { background: $paper; color: $ink; }
     border-bottom: 1px solid $line;
   }
 
-  /* Research overview: one stacked row per area, hairline-separated. */
+  /* Research overview: three columns, each with a number, a title, and a short blurb. */
   .research-overview {
-    display: block;
-    max-width: 820px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.7em;
     border-top: 1px solid $line;
   }
 
   .ro-item {
-    display: grid;
-    grid-template-columns: 2.4em minmax(0, 1fr);
-    column-gap: .5em;
-    align-items: start;
+    display: block;
     min-width: 0;
-    padding: 1.15em 0;
+    padding: 1.25em 0 0;
     border: 0;
-    border-bottom: 1px solid $line;
     border-radius: 0;
     background: transparent !important;
   }
 
   .ro-num {
     display: block;
-    margin: .3em 0 0;
+    margin-bottom: .65em;
     padding: 0;
     border-radius: 0;
     background: transparent;
@@ -265,7 +262,7 @@ body { background: $paper; color: $ink; }
 
   .ro-h {
     color: $ink;
-    font-size: 1.02em;
+    font-size: 1em;
     font-weight: 650;
     line-height: 1.35;
   }
@@ -273,7 +270,7 @@ body { background: $paper; color: $ink; }
   .ro-body p {
     margin: .35em 0 0;
     color: $muted;
-    font-size: .9em;
+    font-size: .88em;
     line-height: 1.62;
   }
 
@@ -474,6 +471,16 @@ body { background: $paper; color: $ink; }
 
 @media (max-width: 760px) {
   .page__content {
+    .research-overview {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .ro-item {
+      padding: 1.15em 0;
+      border-bottom: 1px solid $line;
+    }
+
     .pub-item {
       gap: 1em;
       padding: 1.2em 0;

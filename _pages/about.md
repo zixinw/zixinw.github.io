@@ -61,6 +61,7 @@ redirect_from:
 <li><span class="news-date">2025.08</span><span>Our poster on privacy perceptions in commercial vs. university-specific ChatGPT deployments was accepted to <strong>SOUPS 2025</strong> in Seattle, WA, USA.</span></li>
 <li><span class="news-date">2025</span><span>Received the <strong>Rackham Graduate Student Research Grant</strong> from the University of Michigan.</span></li>
 <li><span class="news-date">2024.08</span><span>Started my Ph.D. at the University of Michigan School of Information.</span></li>
+<li><span class="news-date">2023.08</span><span>Presented our paper on tenants' preferences of privacy negotiation in Airbnb at <strong>USENIX Security 2023</strong> in Anaheim, CA, USA.</span></li>
 </ul>
 </div>
 
