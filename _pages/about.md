@@ -76,7 +76,7 @@ redirect_from:
 <div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb</a></div>
 <div class="pub-authors"><strong>Zixin Wang</strong>, Sunyup Park, Haojian Jin, Yaxing Yao.</div>
 <div class="pub-venue">35th USENIX Security Symposium (USENIX Security 2026).</div>
-<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity26-wang-zixin.pdf">PDF</a> <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Video</a></div>
+<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity26-wang-zixin.pdf">Paper PDF</a> <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Video</a></div>
 </div>
 </div>
 
@@ -87,7 +87,7 @@ redirect_from:
 <div class="pub-title"><a href="https://dl.acm.org/doi/full/10.1145/3772318.3790881">Privacy and Trust vs. Utility: Adoption of Commercial vs. Institutional AI Assistants Among University Users</a></div>
 <div class="pub-authors">Yuting Yang, <strong>Zixin Wang</strong>, Rongjun Ma, Florian Schaub.</div>
 <div class="pub-venue">ACM Conference on Human Factors in Computing Systems (CHI 2026).</div>
-<div class="pub-links"><a href="https://dl.acm.org/doi/full/10.1145/3772318.3790881">ACM DL</a></div>
+<div class="pub-links"><a href="https://dl.acm.org/doi/full/10.1145/3772318.3790881">ACM DL</a> <a href="https://dl.acm.org/doi/pdf/10.1145/3772318.3790881">Paper PDF</a></div>
 </div>
 </div>
 
@@ -98,7 +98,7 @@ redirect_from:
 <div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">Exploring Tenants' Preferences of Privacy Negotiation in Airbnb</a></div>
 <div class="pub-authors"><strong>Zixin Wang</strong>, Danny Yuxing Huang, Yaxing Yao.</div>
 <div class="pub-venue">32nd USENIX Security Symposium (USENIX Security 2023), pp. 535–551.</div>
-<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity23-wang-zixin.pdf">PDF</a> <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">Video</a></div>
+<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity23-wang-zixin.pdf">Paper PDF</a> <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin">Video</a></div>
 </div>
 </div>
 
@@ -109,7 +109,7 @@ redirect_from:
 <div class="pub-title"><a href="https://www.ndss-symposium.org/wp-content/uploads/usec2024-39-paper.pdf">Towards Real-Time Voice Interaction Data Collection Monitoring and Ambient Light Privacy Notification for Voice-Controlled Services</a></div>
 <div class="pub-authors">Tu Le, <strong>Zixin Wang</strong>, Danny Yuxing Huang, Yaxing Yao, Yuan Tian.</div>
 <div class="pub-venue">Symposium on Usable Security and Privacy (USEC 2024).</div>
-<div class="pub-links"><a href="https://www.ndss-symposium.org/wp-content/uploads/usec2024-39-paper.pdf">PDF</a></div>
+<div class="pub-links"><a href="https://www.ndss-symposium.org/ndss-paper/auto-draft-513/">NDSS</a> <a href="https://www.ndss-symposium.org/wp-content/uploads/usec2024-39-paper.pdf">Paper PDF</a></div>
 </div>
 </div>
 
@@ -120,7 +120,7 @@ redirect_from:
 # Education
 
 <div class="education-item">
-  <div class="logo-container"><img src="images/logos/umich-blockm.svg" alt="University of Michigan Block M"></div>
+  <div class="logo-container"><img src="images/logos/umich-primary.svg" alt="University of Michigan logo"></div>
   <div class="content">
     <div class="title">University of Michigan, Ann Arbor</div>
     <div class="subtitle">Ph.D. in Information Science</div>
