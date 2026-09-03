@@ -55,13 +55,12 @@ redirect_from:
 
 <div class="news-scroll-container">
 <ul class="news-list">
-<li><span class="news-date">2026.08</span><span>Presented our paper on privacy negotiation for camera-equipped smart-home devices at <strong>USENIX Security 2026</strong> in Baltimore, MD, USA.</span></li>
-<li><span class="news-date">2026.01</span><span>Our paper on the adoption of institutional vs. commercial AI assistants among university users was accepted to <strong>CHI 2026</strong> in Barcelona, Spain.</span></li>
-<li><span class="news-date">2025.12</span><span>Presented <strong>TunTun Diary</strong>, on AI-generated storytelling and virtual companionship for nightmare relief, at <strong>SIGGRAPH Asia 2025 Posters</strong> in Hong Kong.</span></li>
-<li><span class="news-date">2025.08</span><span>Our poster on privacy perceptions in commercial vs. university-specific ChatGPT deployments was accepted to <strong>SOUPS 2025</strong> in Seattle, WA, USA.</span></li>
-<li><span class="news-date">2025</span><span>Received the <strong>Rackham Graduate Student Research Grant</strong> from the University of Michigan.</span></li>
-<li><span class="news-date">2024.08</span><span>Started my Ph.D. at the University of Michigan School of Information.</span></li>
-<li><span class="news-date">2023.08</span><span>Presented our paper on tenants' preferences of privacy negotiation in Airbnb at <strong>USENIX Security 2023</strong> in Anaheim, CA, USA.</span></li>
+<li><span class="news-date">2026.08</span><span>Presented our paper <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin"><em>Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb</em></a> at <strong>USENIX Security 2026</strong> in Baltimore, MD, USA.</span></li>
+<li><span class="news-date">2026.01</span><span>Our paper <a href="https://dl.acm.org/doi/full/10.1145/3772318.3790881"><em>Privacy and Trust vs. Utility: Adoption of Commercial vs. Institutional AI Assistants Among University Users</em></a>, with Yuting Yang, Rongjun Ma, and Florian Schaub, was accepted to <strong>CHI 2026</strong> in Barcelona, Spain.</span></li>
+<li><span class="news-date">2025.12</span><span>Presented <a href="https://doi.org/10.1145/3757374.3771484"><em>TunTun Diary: Exploring AI-Generated Storytelling and Virtual Companionship for Nightmare Relief</em></a>, a mobile game that turns nightmares into comforting stories, at <strong>SIGGRAPH Asia 2025 Posters</strong> in Hong Kong.</span></li>
+<li><span class="news-date">2025.08</span><span>Our poster <a href="https://www.usenix.org/system/files/soups2025_poster42-yang.pdf"><em>Privacy Perceptions in the Use of ChatGPT Across Different Contexts: A Survey Study of Commercial vs. University-specific Implementations</em></a> was accepted to <strong>SOUPS 2025</strong> in Seattle, WA, USA.</span></li>
+<li><span class="news-date">2024.08</span><span>Started my Ph.D. at the <a href="https://www.si.umich.edu/">School of Information, University of Michigan</a>, advised by Prof. Florian Schaub and Prof. Christopher Brooks.</span></li>
+<li><span class="news-date">2023.08</span><span>Presented our paper <a href="https://www.usenix.org/conference/usenixsecurity23/presentation/wang-zixin"><em>Exploring Tenants' Preferences of Privacy Negotiation in Airbnb</em></a> at <strong>USENIX Security 2023</strong> in Anaheim, CA, USA.</span></li>
 </ul>
 </div>
 
@@ -151,7 +150,7 @@ redirect_from:
 
 # Teaching
 
-* **Fall 2026:** Graduate Student Instructor for **SI 544: Introduction to Statistics and Data Analysis**, <strong><a href="https://www.si.umich.edu/">University of Michigan School of Information</a></strong>
+* **Fall 2026:** Graduate Student Instructor for **SI 544: Introduction to Statistics and Data Analysis**, <strong><a href="https://www.si.umich.edu/">School of Information, University of Michigan</a></strong>
 
 # Awards
 

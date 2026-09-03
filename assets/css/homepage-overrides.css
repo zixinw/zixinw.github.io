@@ -110,6 +110,8 @@
   border: 0 !important;
 }
 .page__content .news-list li::before { display: none !important; content: none !important; }
+.page__content .news-list a { color: #315f86 !important; font-weight: 500 !important; text-decoration: none !important; }
+.page__content .news-list a:hover { color: #20252b !important; text-decoration: underline !important; text-underline-offset: 2px !important; }
 .page__content .news-date {
   color: #75808a !important;
   font-size: .9em !important;
