@@ -48,7 +48,7 @@ redirect_from:
 
 <aside class="collaboration-callout" aria-label="Open for collaboration">
   <div class="collaboration-callout__title">Open for collaboration</div>
-  <p>I am always happy to talk about <span>human-centered security, human-AI interaction, and usable privacy and security</span>, and I am open to academic collaborations and research internship opportunities. Get in touch by <a href="mailto:{{ site.author.email }}">email</a> or <a href="{{https://calendar.app.google/ujcVU7GJ3Vecz2R48}}">schedule a short meeting</a>.</p>
+  <p>I am always happy to talk about <span>human-centered security, human-AI interaction, and usable privacy and security</span>, and I am open to academic collaborations and research internship opportunities. Get in touch by <a href="mailto:{{ site.author.email }}">email</a> or <a href="{{ meeting_url }}">schedule a short meeting</a>.</p>
 </aside>
 
 # News

@@ -28,7 +28,7 @@ author:
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=6qxfN_4AAAAJ"
   email            : "zixinw@umich.edu"
-  meeting          :  # scheduling link for a short meeting (e.g., Calendly or Google Calendar appointment page); falls back to a pre-filled email when empty
+  meeting          : "https://calendar.app.google/ujcVU7GJ3Vecz2R48"  # scheduling link for a short meeting; falls back to a pre-filled email when empty
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
