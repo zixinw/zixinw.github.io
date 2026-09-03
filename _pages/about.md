@@ -76,7 +76,7 @@ redirect_from:
 <div class="pub-title"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home Devices in Airbnb</a></div>
 <div class="pub-authors"><strong>Zixin Wang</strong>, Sunyup Park, Haojian Jin, Yaxing Yao.</div>
 <div class="pub-venue">35th USENIX Security Symposium (USENIX Security 2026).</div>
-<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity26-wang-zixin.pdf">Paper PDF</a> <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">Video</a></div>
+<div class="pub-links"><a href="https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin">USENIX</a> <a href="https://www.usenix.org/system/files/usenixsecurity26-wang-zixin.pdf">Paper PDF</a> <a href="https://youtu.be/l5bP_NeYC_k?si=7s8d5H2Z7JE-Gy_G">Video</a></div>
 </div>
 </div>
 
