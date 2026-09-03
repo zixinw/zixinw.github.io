@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zixin Wang"
-description              : "Zixin Wang — PhD Student, University of Michigan School of Information. Privacy, human-AI interaction, and agentic AI."
+description              : "Zixin Wang, PhD Student, University of Michigan School of Information. Human-centered security, human-AI interaction, and usable privacy and security."
 repository               : "zixinw/zixinw.github.io"
 
 # google analytics
@@ -22,12 +22,13 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zixin Wang 王梓昕"
   avatar           : "images/IMG_1442.jpg"
-  bio              : "Privacy, human–AI interaction, and agentic AI."
+  bio              : "Human-centered security, human-AI interaction, and usable privacy and security."
   location         : "Ann Arbor, MI, USA"
   employer         : "University of Michigan"
   pubmed           :
   googlescholar    : "https://scholar.google.com/citations?user=6qxfN_4AAAAJ"
   email            : "zixinw@umich.edu"
+  meeting          :  # scheduling link for a short meeting (e.g., Calendly or Google Calendar appointment page); falls back to a pre-filled email when empty
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

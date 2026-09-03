@@ -232,25 +232,29 @@ body { background: $paper; color: $ink; }
     border-bottom: 1px solid $line;
   }
 
+  /* Research overview: one stacked row per area, hairline-separated. */
   .research-overview {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.7em;
+    display: block;
+    max-width: 820px;
     border-top: 1px solid $line;
   }
 
   .ro-item {
-    display: block;
+    display: grid;
+    grid-template-columns: 2.4em minmax(0, 1fr);
+    column-gap: .5em;
+    align-items: start;
     min-width: 0;
-    padding: 1.25em 0 0;
+    padding: 1.15em 0;
     border: 0;
+    border-bottom: 1px solid $line;
     border-radius: 0;
     background: transparent !important;
   }
 
   .ro-num {
     display: block;
-    margin-bottom: .65em;
+    margin: .3em 0 0;
     padding: 0;
     border-radius: 0;
     background: transparent;
@@ -261,20 +265,38 @@ body { background: $paper; color: $ink; }
 
   .ro-h {
     color: $ink;
-    font-size: 1em;
+    font-size: 1.02em;
     font-weight: 650;
     line-height: 1.35;
   }
 
   .ro-body p {
+    margin: .35em 0 0;
     color: $muted;
-    font-size: .88em;
+    font-size: .9em;
     line-height: 1.62;
   }
 
+  /* "Last updated" sits at the very bottom of the page as a quiet footer line. */
   .last-updated {
+    margin: 4em 0 0;
+    padding-top: 1em;
+    border-top: 1px solid $line;
     color: #9aa1a8;
     font-size: .8em;
+  }
+
+  .news-location {
+    display: inline-block;
+    color: #8a939b;
+    font-size: .88em;
+    white-space: nowrap;
+
+    i {
+      margin-right: .3em;
+      font-size: .9em;
+      color: #a8b0b7;
+    }
   }
 
   .collaboration-callout {
@@ -457,16 +479,6 @@ body { background: $paper; color: $ink; }
 
 @media (max-width: 760px) {
   .page__content {
-    .research-overview {
-      grid-template-columns: 1fr;
-      gap: 0;
-    }
-
-    .ro-item {
-      padding: 1.15em 0;
-      border-bottom: 1px solid $line;
-    }
-
     .pub-item {
       gap: 1em;
       padding: 1.2em 0;
