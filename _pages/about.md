@@ -168,4 +168,4 @@ redirect_from:
 * **Conference reviewer:** CHI 2026, CHI LBW 2023–2025, CSCW 2024
 * **Journal reviewer:** *Information, Communication & Society*
 
-<p class="last-updated">Last updated: 30 August 2026</p>
+<p class="last-updated">Last updated: {{ site.time | date: "%-d %B %Y" }}</p>
