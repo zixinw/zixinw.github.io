@@ -132,7 +132,7 @@ redirect_from:
   <div class="logo-container"><img src="images/logos/zju-emblem.svg" alt="Zhejiang University emblem"></div>
   <div class="content">
     <div class="title">Zhejiang University</div>
-    <div class="subtitle">M.Sc. in Applied Psychology</div>
+    <div class="subtitle">M.Ed. in Applied Psychology</div>
     <div class="date">2021.09 - 2024.06</div>
     <div class="description">Thesis: <em>Empowering Users to Navigate Privacy in Self-Disclosure with Large Language Models</em></div>
   </div>
