@@ -25,21 +25,21 @@ redirect_from:
     <div class="ro-num">01</div>
     <div class="ro-body">
       <div class="ro-h">Human-Centered Security</div>
-      <p>How people stay secure as AI agents act on their behalf: what users expect agents to do with their accounts, data, and devices, how they detect and recover when an agent is manipulated or goes wrong, and what oversight keeps delegated actions safe.</p>
+      <p>My current work at the Security Privacy Interaction Lab builds a benchmark for privacy leakage in LLM applications and studies how prompts, tool calls, and agent actions can expose user data, including human evaluation protocols for judging what a model or agent should and should not reveal.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">02</div>
     <div class="ro-body">
       <div class="ro-h">Human-AI Interaction</div>
-      <p>How people understand, trust, and disclose to conversational and agentic AI systems, and how they keep awareness, agency, and meaningful control as AI moves from answering prompts to taking actions on their behalf.</p>
+      <p>I study how people choose, trust, and disclose to conversational AI. With Yuting Yang and Florian Schaub, I surveyed 260 university users on why they pick commercial or institutional AI assistants (CHI 2026, SOUPS 2025 poster). My master's thesis examined how users navigate privacy in self-disclosure to large language models.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">03</div>
     <div class="ro-body">
       <div class="ro-h">Usable Privacy and Security</div>
-      <p>How people negotiate privacy and control in shared, multi-stakeholder settings such as smart homes, short-term rentals, and shared devices, and how to design notices, controls, and negotiation mechanisms that fit how people actually live with these systems.</p>
+      <p>I design and test privacy negotiation mechanisms for shared spaces. Two vignette experiments on Airbnb (N=867 and N=400) showed how tenants want to negotiate with hosts about smart home devices, from device type and placement to compensation (USENIX Security 2023, 2026). I also contributed to VPAWatcher, which monitors voice assistant data collection and notifies users through ambient light (USEC 2024).</p>
     </div>
   </div>
 </div>
