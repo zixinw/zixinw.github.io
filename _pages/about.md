@@ -157,16 +157,14 @@ redirect_from:
 * **2026:** GREPSEC Student Grant
 * **2026:** USENIX Security Student Grant, USENIX Association
 * **2025:** Rackham Graduate Student Research Grant (~\$1,500), University of Michigan
-* **2024:** Ph.D. Incentive Research Fund (~\$4,000), School of Information, University of Michigan
-* **2024:** Ph.D. Fellowship, School of Information, University of Michigan
 * **2024:** Excellent Graduate, Zhejiang University
 * **2021:** Excellent Graduate (City-Level), Chongqing
 * **2020:** Science Scholarship (~\$3,000), Southwest University
-* **2020:** National Scholarship (~\$1,200), Ministry of Education of China
+* **2020:** National Scholarship (~\$1,200), Southwest University
 
 # Academic Service
 
-* **Conference reviewer:** CHI 2023–2026, CSCW 2024, CHI PLAY 2026, L@S 2026, IMX 2024, iConference 2025–2026, HICSS 2023 and 2025
-* **Journal reviewer:** *Information, Communication & Society* (2026)
+* **Conference reviewer:** CHI 2026, CHI LBW 2023–2025, CSCW 2024
+* **Journal reviewer:** *Information, Communication & Society*
 
 <p class="last-updated">Last updated: {{ site.time | date: "%-d %B %Y" }}</p>
