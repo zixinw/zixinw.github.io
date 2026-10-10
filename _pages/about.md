@@ -16,7 +16,7 @@ redirect_from:
 
 <p>My research sits at the intersection of <strong>human-centered security, human-AI interaction, and usable privacy and security</strong>. I am especially interested in how people make sense of complex systems, negotiate privacy and control with other stakeholders, and adapt their behavior as AI systems become more autonomous. Methodologically, I use mixed methods including large-scale surveys, vignette experiments, statistical modeling, and qualitative analysis.</p>
 
-<p>I hold an M.Sc. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://admissions.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> at <strong><a href="https://www.nyu.edu/">New York University</a></strong> and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> at <strong><a href="https://ucsd.edu/">UC San Diego</a></strong>.</p>
+<p>I hold an M.Ed. in Applied Psychology from <strong><a href="https://www.zju.edu.cn/english/">Zhejiang University</a></strong> and a B.Sc. in Psychology from <strong><a href="https://admissions.swu.edu.cn/">Southwest University</a></strong>. Previously I was a research assistant at <strong><a href="https://www.jhu.edu/">Johns Hopkins University</a></strong> with Prof. <strong><a href="https://yaxingyao.github.io/">Yaxing Yao</a></strong>. I have also been fortunate to work alongside Prof. <strong><a href="https://www.dannyhuang.net/">Danny Yuxing Huang</a></strong> at <strong><a href="https://www.nyu.edu/">New York University</a></strong> and Prof. <strong><a href="https://haojianj.in/">Haojian Jin</a></strong> at <strong><a href="https://ucsd.edu/">UC San Diego</a></strong>.</p>
 
 <div class="ro-label" id="research-overview">Research Overview</div>
 
@@ -25,21 +25,21 @@ redirect_from:
     <div class="ro-num">01</div>
     <div class="ro-body">
       <div class="ro-h">Human-Centered Security</div>
-      <p>Privacy leakage in LLM applications: a benchmark for how prompts, tool calls, and agent actions expose user data, with human evaluation protocols for what a model or agent should and should not reveal. Ongoing work at the Security Privacy Interaction Lab.</p>
+      <p>What users expect an AI agent to do with their accounts, data, and devices once they hand it a task, how they notice when the agent has been tricked or has gone off course, and what kind of oversight they will actually keep using.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">02</div>
     <div class="ro-body">
       <div class="ro-h">Human-AI Interaction</div>
-      <p>How people choose, trust, and disclose to conversational AI. A survey of 260 university users on why they adopt commercial or institutional AI assistants (CHI 2026, SOUPS 2025 poster), and a thesis study on how users navigate privacy in self-disclosure to large language models.</p>
+      <p>How people decide what to tell a chatbot or an agent, how much they trust what comes back, and how they hold on to control once the system is acting for them rather than just answering.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">03</div>
     <div class="ro-body">
       <div class="ro-h">Usable Privacy and Security</div>
-      <p>Privacy negotiation mechanisms for shared spaces. Two vignette experiments on Airbnb (N=867 and N=400) on how tenants negotiate with hosts about smart home devices, from device type and placement to compensation (USENIX Security 2023, 2026), and VPAWatcher, a tool that monitors voice assistant data collection and notifies users through ambient light (USEC 2024).</p>
+      <p>How people living with someone else's devices, such as a guest in an Airbnb with a camera or a family sharing a smart speaker, bargain over what gets recorded, and what notices and controls would make that bargaining work in practice.</p>
     </div>
   </div>
 </div>
