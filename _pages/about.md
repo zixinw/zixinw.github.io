@@ -25,21 +25,21 @@ redirect_from:
     <div class="ro-num">01</div>
     <div class="ro-body">
       <div class="ro-h">Human-Centered Security</div>
-      <p>How people perceive, reason about, and respond to security and privacy threats in everyday and multi-stakeholder settings such as smart homes, short-term rentals, and shared devices, and how those perceptions shape the protections they actually adopt.</p>
+      <p>How people stay secure as AI agents act on their behalf: what users expect agents to do with their accounts, data, and devices, how they detect and recover when an agent is manipulated or goes wrong, and what oversight keeps delegated actions safe.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">02</div>
     <div class="ro-body">
       <div class="ro-h">Human-AI Interaction</div>
-      <p>How people understand, trust, disclose to, and make decisions with conversational and agentic AI systems, and how they keep awareness, agency, and meaningful control as AI moves from answering prompts to acting on their behalf.</p>
+      <p>How people understand, trust, and disclose to conversational and agentic AI systems, and how they keep awareness, agency, and meaningful control as AI moves from answering prompts to taking actions on their behalf.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">03</div>
     <div class="ro-body">
       <div class="ro-h">Usable Privacy and Security</div>
-      <p>Designing privacy notices, controls, and negotiation mechanisms that people can actually use, grounded in large-scale surveys, vignette experiments, and qualitative studies so that protections fit real practices rather than idealized ones.</p>
+      <p>How people negotiate privacy and control in shared, multi-stakeholder settings such as smart homes, short-term rentals, and shared devices, and how to design notices, controls, and negotiation mechanisms that fit how people actually live with these systems.</p>
     </div>
   </div>
 </div>
