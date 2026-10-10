@@ -1,0 +1,340 @@
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[left=0.66in,right=0.66in,top=0.52in,bottom=0.54in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[default,lining]{carlito}
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{hidelinks}
+\urlstyle{same}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\setlist[itemize]{leftmargin=1.35em,itemsep=0.15em,topsep=0.22em,parsep=0pt}
+
+
+\newcommand{\cvsection}[1]{%
+  \Needspace{5\baselineskip}%
+  \vspace{0.90em}%
+  {\large\textls[55]{\MakeUppercase{#1}}}\par
+  \vspace{0.10em}\hrule\vspace{0.45em}
+}
+
+\newcommand{\educationentry}[4]{%
+  \Needspace{5\baselineskip}%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4}
+  \end{tabular*}\par
+}
+
+\newcommand{\workentry}[5]{%
+  \Needspace{3.5\baselineskip}%
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lr}
+    \textbf{#1} & #2
+  \end{tabular*}\par
+  \textit{#3}\par
+  \textit{#4}\par\vspace{0.18em}
+  #5\par\vspace{0.60em}
+}
+
+\newcommand{\publication}[4]{%
+  \Needspace{4.2\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{}>{\bfseries}p{0.36in}@{\hspace{0.07in}}X@{}}
+    [#1] & \textbf{#2} \\
+         & #3 \\
+         & \textit{#4}
+  \end{tabularx}\par\vspace{0.34em}
+}
+
+\newcommand{\awardentry}[3]{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}
+    #1, \textit{#2} & #3
+  \end{tabularx}\par\vspace{0.18em}
+}
+
+\newcommand{\teachingentry}[4]{%
+  \Needspace{4\baselineskip}%
+  \begin{tabularx}{\textwidth}{@{\hspace{0.12in}}Xr@{}}
+    \textbf{#1}, \textit{#2} & #3 \\
+    #4 &
+  \end{tabularx}\par\vspace{0.45em}
+}
+
+\newcommand{\serviceentry}[2]{%
+  \begin{tabularx}{\textwidth}{@{\hspace{0.12in}}Xr@{}}
+    #1 & #2
+  \end{tabularx}\par\vspace{0.12em}
+}
+
+\begin{document}
+
+\begin{center}
+  {\fontsize{24}{27}\selectfont\bfseries Zixin Wang}\par
+  \vspace{0.35em}
+  {\large Curriculum Vitae}\par
+  \vspace{0.45em}
+  Ph.D. Student, University of Michigan
+  \;|\;
+  \href{mailto:zixinw@umich.edu}{zixinw@umich.edu}
+  \;|\;
+  \href{https://zixinwang.me}{zixinwang.me}
+  \;|\;
+  \href{https://scholar.google.com/citations?user=6qxfN_4AAAAJ}{Google Scholar}
+  \;|\;
+  +1 (734) 330-0098
+\end{center}
+
+\cvsection{Research Interests}
+Human-centered security, human-AI interaction, and usable privacy and
+security. I study how people negotiate privacy and control with other
+people and with AI systems: what guests expect from a host's smart home
+devices, what users are willing to tell a chatbot, and how people keep
+oversight as AI agents begin to act on their behalf. I work mainly with
+large-scale surveys and vignette experiments, and translate the findings into
+negotiation mechanisms, notices, and controls that fit how people actually
+use these systems.
+
+\cvsection{Education}
+
+\educationentry
+  {University of Michigan}
+  {Ann Arbor, MI}
+  {Ph.D. in Information Science}
+  {Aug 2024--Present}
+School of Information\par
+\textit{Advisors:} Florian Schaub and Christopher Brooks
+\vspace{0.75em}
+
+\educationentry
+  {Zhejiang University}
+  {Hangzhou, China}
+  {M.Ed. in Psychology, GPA: 3.9/4.0}
+  {Sep 2021--Jun 2024}
+\textit{Thesis:} Empowering Users to Navigate Privacy in Self-Disclosure with
+Large Language Models
+\vspace{0.75em}
+
+\educationentry
+  {Southwest University}
+  {Chongqing, China}
+  {B.Sc. in Psychology, GPA: 3.9/4.0}
+  {Sep 2017--Jun 2021}
+\textit{Thesis:} Socioeconomic Status and Financial Literacy Among High School
+Students
+
+\cvsection{Research Experience}
+
+\workentry
+  {Graduate Student Research Assistant}
+  {Aug 2024--Present}
+  {University of Michigan, School of Information, Ann Arbor, MI}
+  {Security Privacy Interaction Lab, advised by Florian Schaub and Christopher Brooks}
+  {\begin{itemize}
+    \item Building a benchmark for privacy leakage in LLM applications,
+      covering prompts, tool calls, and agent actions, with human evaluation
+      protocols for what a model or agent should and should not reveal
+    \item Co-led a survey study (N=260) of why university users choose
+      commercial or institutional AI assistants and how they weigh privacy,
+      trust, and utility; published and presented at CHI 2026, poster at
+      SOUPS 2025
+    \item Co-lead Hearing the Smile, smart glasses that help blind and
+      low-vision people read interpersonal warmth through AI-generated music;
+      designed the interviews, surveys, and in-situ sessions and modeled the
+      data in R (CHI 2025 workshop)
+  \end{itemize}}
+
+\workentry
+  {Research Assistant}
+  {May 2022--Aug 2024}
+  {Johns Hopkins University, Baltimore, MD (remote)}
+  {Advised by Yaxing Yao}
+  {\begin{itemize}
+    \item Led two vignette experiments (N=867 and N=400) on how Airbnb guests
+      negotiate with hosts over cameras and other smart home devices, from
+      research questions to first-author papers at USENIX Security 2023 and
+      2026
+    \item Designed the factorial experiments and surveys, ran data collection
+      on Prolific and MTurk with quota and attention checks, fit mixed-effects
+      and regression models in R, and coded 8,000+ open-ended responses
+    \item Turned the findings into design implications for in-platform
+      negotiation tools and clearer device disclosures
+    \item Contributed to studies of real-time voice interaction monitoring
+      (USEC 2024) and augmented reality for spotting home privacy leaks
+      (USEC 2023)
+  \end{itemize}}
+
+\workentry
+  {Graduate Researcher}
+  {Sep 2021--Jun 2024}
+  {Zhejiang University, Hangzhou, China}
+  {Department of Psychology}
+  {\begin{itemize}
+    \item Master's thesis on how large language models can help users notice
+      and manage privacy risks while disclosing personal information
+    \item Collaborated on studies of expression and censorship on Chinese
+      social media (iConference 2023, HICSS 2023) and of user awareness of
+      cryptocurrency energy demand (Oxford Open Energy 2023, FiDeFix 2023)
+  \end{itemize}}
+
+\cvsection{Conference Papers}
+
+\publication{C.7}
+  {\href{https://www.usenix.org/conference/usenixsecurity26/presentation/wang-zixin}
+  {Exploring Privacy Negotiation Strategies for Camera-Equipped Smart Home
+  Devices in Airbnb}}
+  {\textbf{Zixin Wang}, Sunyup Park, Haojian Jin, and Yaxing Yao}
+  {35th USENIX Security Symposium (USENIX Security 2026)}
+
+\publication{C.6}
+  {\href{https://dl.acm.org/doi/10.1145/3772318.3790881}
+  {Privacy and Trust vs. Utility: Adoption of Commercial vs. Institutional AI
+  Assistants Among University Users}}
+  {Yuting Yang, \textbf{Zixin Wang}, Rongjun Ma, and Florian Schaub}
+  {Proceedings of the ACM Conference on Human Factors in Computing Systems
+  (CHI 2026)}
+
+\publication{C.5}
+  {\href{https://www.ndss-symposium.org/wp-content/uploads/usec2024-39-paper.pdf}
+  {Towards Real-Time Voice Interaction Data Collection Monitoring and Ambient
+  Light Privacy Notification for Voice-Controlled Services}}
+  {Tu Le, \textbf{Zixin Wang}, Danny Yuxing Huang, Yaxing Yao, and Yuan Tian}
+  {Symposium on Usable Security and Privacy (USEC 2024)}
+
+\publication{C.4}
+  {\href{https://www.usenix.org/system/files/usenixsecurity23-wang-zixin.pdf}
+  {Exploring Tenants' Preferences of Privacy Negotiation in Airbnb}}
+  {\textbf{Zixin Wang}, Danny Yuxing Huang, and Yaxing Yao}
+  {32nd USENIX Security Symposium (USENIX Security 2023)}
+
+\publication{C.3}
+  {\href{https://www.ndss-symposium.org/wp-content/uploads/2023/02/usec2023-238930-paper.pdf}
+  {Augmented Reality's Potential for Identifying and Mitigating Home Privacy
+  Leaks}}
+  {Stefany Cruz, Logan Danek, Shinan Liu, Christopher Kraemer, \textbf{Zixin
+  Wang}, Nick Feamster, Danny Yuxing Huang, Yaxing Yao, and Josiah Hester}
+  {Symposium on Usable Security and Privacy (USEC 2023)}
+
+\publication{C.2}
+  {\href{https://dl.acm.org/doi/abs/10.1007/978-3-031-28032-0_8}
+  {How We Express Ourselves Freely: Censorship, Self-Censorship, and
+  Anti-Censorship on a Chinese Social Media}}
+  {Xiang Chen, Jiamu Xie, \textbf{Zixin Wang}, Bohui Shen, and Zhixuan Zhou}
+  {18th iConference (iConference 2023)}
+
+\publication{C.1}
+  {\href{https://scholarspace.manoa.hawaii.edu/server/api/core/bitstreams/96927829-8fcf-4e4a-92d5-07e56871e0ca/content}
+  {Anonymous Expression in an Online Community for Women in China}}
+  {Zhixuan Zhou, \textbf{Zixin Wang}, and Franziska Zimmer}
+  {56th Hawaii International Conference on System Sciences (HICSS 2023)}
+
+\cvsection{Journal Papers}
+
+\publication{J.1}
+  {\href{https://academic.oup.com/ooenergy/article/doi/10.1093/ooenergy/oiad012/7303743}
+  {Energy Demand Unawareness and the Popularity of Bitcoin: Evidence from
+  Nigeria}}
+  {Moritz Platt, Stephen Ojeka, Andreea-Elena Dr\u{a}gnoiu, Oserere Ejemen
+  Ibelegbu, Francesco Pierangeli, Johannes Sedlmeir, and \textbf{Zixin Wang}}
+  {Oxford Open Energy, 2023}
+
+\cvsection{Workshop Papers}
+
+\publication{W.2}
+  {Hearing the Smile: Scoring Spontaneous Social Scenes for the Visually
+  Impaired}
+  {Shan Luo, \textbf{Zixin Wang}, and Botao Hu}
+  {ACM CHI 2025 Workshop on Affective Interaction and Affective Computing: Past,
+  Present, and Future}
+
+\publication{W.1}
+  {\href{https://kclpure.kcl.ac.uk/ws/portalfiles/portal/208278701/cex_sustainability_fidefix_2023.pdf}
+  {The More You Know: Energy Labelling Enables More Sustainable Cryptocurrency
+  Investments}}
+  {Andreea-Elena Dr\u{a}gnoiu, Moritz Platt, \textbf{Zixin Wang}, and Zhixuan
+  Zhou}
+  {IEEE ICDCS 2023 Workshop on Fintech and Decentralized Finance (FiDeFix)}
+
+\cvsection{Posters and Extended Abstracts}
+
+\publication{P.2}
+  {\href{https://dl.acm.org/doi/10.1145/3757374.3771484}
+  {TunTun Diary: Exploring AI-Generated Storytelling and Virtual Companionship
+  for Nightmare Relief}}
+  {\textbf{Zixin Wang}, Shan Luo, Siyu Tian, Yunxi Cai, Long Ling, Muhan Xu,
+  Jiaxing Yu, Guanting Lu, Jiajing Zhu, and Liping Luo}
+  {SIGGRAPH Asia 2025 Posters}
+
+\publication{P.1}
+  {\href{https://www.usenix.org/system/files/soups2025_poster42_abstract-yang.pdf}
+  {Privacy Perceptions in the Use of ChatGPT Across Different Contexts: A
+  Survey Study of Commercial vs. University-Specific Implementations}}
+  {Yuting Yang, \textbf{Zixin Wang}, and Florian Schaub}
+  {Symposium on Usable Privacy and Security (SOUPS 2025), Poster Session}
+
+\cvsection{Honors, Awards, and Grants}
+
+\awardentry{Student Grant, USENIX Security Symposium}
+  {USENIX Association}{2026}
+\awardentry{GREPSEC VII Workshop Travel Grant}
+  {USENIX Association}{2026}
+\awardentry{Rackham International Conference Travel Grant}
+  {University of Michigan, Rackham Graduate School}{2025--2026}
+\awardentry{UMSI International Conference Travel Grant}
+  {University of Michigan, School of Information}{2025--2026}
+\awardentry{Rackham Graduate Student Research Grant (\$1,500)}
+  {University of Michigan}{2025}
+\awardentry{Ph.D. Incentive Research Fund (\$4,000)}
+  {University of Michigan, School of Information}{2024}
+\awardentry{Ph.D. Fellowship}
+  {University of Michigan, School of Information}{2024}
+\awardentry{Excellent Graduate}{Zhejiang University}{2024}
+\awardentry{Excellent Graduate (City-Level)}{Chongqing}{2021}
+\awardentry{Science Scholarship}{Southwest University}{2020}
+\awardentry{National Scholarship}{Ministry of Education of China}{2020}
+
+\cvsection{Teaching Experience}
+
+\teachingentry
+  {Graduate Student Instructor (GSI)}
+  {SI 544: Introduction to Statistics and Data Analysis}
+  {Fall 2026}
+  {School of Information, University of Michigan}
+
+\cvsection{Academic Service}
+
+\textbf{Journal Reviewer}\par\vspace{0.10em}
+\serviceentry{Information, Communication and Society (ICS)}{2026}
+
+\vspace{0.20em}
+\textbf{Conference Reviewer}\par\vspace{0.10em}
+\serviceentry{ACM Conference on Human Factors in Computing Systems (CHI)}{2023--2026}
+\serviceentry{ACM Learning at Scale Conference (L@S)}{2026}
+\serviceentry{ACM SIGCHI Annual Symposium on Computer-Human Interaction in Play (CHI PLAY)}{2026}
+\serviceentry{ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)}{2024}
+\serviceentry{ACM International Conference on Interactive Media Experiences (IMX)}{2024}
+\serviceentry{iConference}{2025--2026}
+\serviceentry{Hawaii International Conference on System Sciences (HICSS)}{2023, 2025}
+
+\cvsection{Skills}
+\begin{itemize}
+  \item \textbf{Methods:} Large-scale surveys and online experiments
+    (factorial and vignette designs), scale development and validation,
+    interviews and in-situ studies, thematic analysis, human evaluation of
+    LLM outputs
+  \item \textbf{Statistics:} Regression, ANOVA, GLM/GLMM, mixed-effects
+    models, power analysis, effect sizes, reliability and validity testing
+  \item \textbf{Tools:} R (tidyverse, lme4), Python (pandas), SPSS, Qualtrics,
+    Prolific, Amazon Mechanical Turk, LaTeX
+  \item \textbf{Languages:} English (fluent), Mandarin Chinese (native)
+\end{itemize}
+
+\end{document}
