@@ -25,21 +25,21 @@ redirect_from:
     <div class="ro-num">01</div>
     <div class="ro-body">
       <div class="ro-h">Human-Centered Security</div>
-      <p>My current work at the Security Privacy Interaction Lab builds a benchmark for privacy leakage in LLM applications and studies how prompts, tool calls, and agent actions can expose user data, including human evaluation protocols for judging what a model or agent should and should not reveal.</p>
+      <p>Privacy leakage in LLM applications: a benchmark for how prompts, tool calls, and agent actions expose user data, with human evaluation protocols for what a model or agent should and should not reveal. Ongoing work at the Security Privacy Interaction Lab.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">02</div>
     <div class="ro-body">
       <div class="ro-h">Human-AI Interaction</div>
-      <p>I study how people choose, trust, and disclose to conversational AI. With Yuting Yang and Florian Schaub, I surveyed 260 university users on why they pick commercial or institutional AI assistants (CHI 2026, SOUPS 2025 poster). My master's thesis examined how users navigate privacy in self-disclosure to large language models.</p>
+      <p>How people choose, trust, and disclose to conversational AI. A survey of 260 university users on why they adopt commercial or institutional AI assistants (CHI 2026, SOUPS 2025 poster), and a thesis study on how users navigate privacy in self-disclosure to large language models.</p>
     </div>
   </div>
   <div class="ro-item">
     <div class="ro-num">03</div>
     <div class="ro-body">
       <div class="ro-h">Usable Privacy and Security</div>
-      <p>I design and test privacy negotiation mechanisms for shared spaces. Two vignette experiments on Airbnb (N=867 and N=400) showed how tenants want to negotiate with hosts about smart home devices, from device type and placement to compensation (USENIX Security 2023, 2026). I also contributed to VPAWatcher, which monitors voice assistant data collection and notifies users through ambient light (USEC 2024).</p>
+      <p>Privacy negotiation mechanisms for shared spaces. Two vignette experiments on Airbnb (N=867 and N=400) on how tenants negotiate with hosts about smart home devices, from device type and placement to compensation (USENIX Security 2023, 2026), and VPAWatcher, a tool that monitors voice assistant data collection and notifies users through ambient light (USEC 2024).</p>
     </div>
   </div>
 </div>
